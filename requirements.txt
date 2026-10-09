@@ -1,0 +1,4 @@
+# Everything in this repo runs on these three. No geospatial stack required.
+numpy>=1.21
+pandas>=1.3
+matplotlib>=3.5

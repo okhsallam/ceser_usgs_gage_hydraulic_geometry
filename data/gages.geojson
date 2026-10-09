@@ -1,0 +1,2740 @@
+{
+ "type": "FeatureCollection",
+ "name": "gages",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05411850",
+    "monitoring_location_id": "USGS-05411850",
+    "station_name": "Turkey River near Eldorado, IA",
+    "lat": 43.054188,
+    "lng": -91.809098,
+    "state": "IA",
+    "drain_area_sqkm": 1664.225,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 890.26,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 113,
+    "n_channel_features": 196,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.809098,
+     43.054188
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412020",
+    "monitoring_location_id": "USGS-05412020",
+    "station_name": "Turkey River above French Hollow Cr at Elkader, IA",
+    "lat": 42.843485,
+    "lng": -91.401277,
+    "state": "IA",
+    "drain_area_sqkm": 2355.58,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 694.65,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 109,
+    "n_channel_features": 187,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.401277,
+     42.843485
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412400",
+    "monitoring_location_id": "USGS-05412400",
+    "station_name": "Volga River at Littleport, IA",
+    "lat": 42.753875,
+    "lng": -91.369025,
+    "state": "IA",
+    "drain_area_sqkm": 942.5907,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 676.78,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 114,
+    "n_channel_features": 222,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.369025,
+     42.753875
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412500",
+    "monitoring_location_id": "USGS-05412500",
+    "station_name": "Turkey River at Garber, IA",
+    "lat": 42.739988,
+    "lng": -91.261799,
+    "state": "IA",
+    "drain_area_sqkm": 3858.214,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 638.88,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "yes",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 112,
+    "n_channel_features": 1181,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.261799,
+     42.739988
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05413500",
+    "monitoring_location_id": "USGS-05413500",
+    "station_name": "GRANT RIVER AT BURTON, WI",
+    "lat": 42.720271,
+    "lng": -90.819294,
+    "state": "WI",
+    "drain_area_sqkm": 695.3256,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 606.14,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "yes",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 128,
+    "n_channel_features": 410,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.819294,
+     42.720271
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05416900",
+    "monitoring_location_id": "USGS-05416900",
+    "station_name": "Maquoketa River at Manchester, IA",
+    "lat": 42.469988,
+    "lng": -91.448715,
+    "state": "IA",
+    "drain_area_sqkm": 722.7054,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 900.27,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 111,
+    "n_channel_features": 199,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.448715,
+     42.469988
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05418400",
+    "monitoring_location_id": "USGS-05418400",
+    "station_name": "North Fork Maquoketa River near Fulton, IA",
+    "lat": 42.164405,
+    "lng": -90.728246,
+    "state": "IA",
+    "drain_area_sqkm": 1302.337,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 678.58,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 116,
+    "n_channel_features": 265,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.728246,
+     42.164405
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05418500",
+    "monitoring_location_id": "USGS-05418500",
+    "station_name": "Maquoketa River near Maquoketa, IA",
+    "lat": 42.083353,
+    "lng": -90.632912,
+    "state": "IA",
+    "drain_area_sqkm": 4019.218,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 625.63,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 108,
+    "n_channel_features": 1155,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.632912,
+     42.083353
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05419000",
+    "monitoring_location_id": "USGS-05419000",
+    "station_name": "APPLE RIVER NEAR HANOVER, IL",
+    "lat": 42.252794,
+    "lng": -90.285962,
+    "state": "IL",
+    "drain_area_sqkm": 638.6625,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 606.82,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0706",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 101,
+    "n_channel_features": 1001,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.285962,
+     42.252794
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05420680",
+    "monitoring_location_id": "USGS-05420680",
+    "station_name": "Wapsipinicon River near Tripoli, IA",
+    "lat": 42.836091,
+    "lng": -92.2574,
+    "state": "IA",
+    "drain_area_sqkm": 896.9979,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 986.39,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 107,
+    "n_channel_features": 235,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.2574,
+     42.836091
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05421000",
+    "monitoring_location_id": "USGS-05421000",
+    "station_name": "Wapsipinicon River at Independence, IA",
+    "lat": 42.463598,
+    "lng": -91.895172,
+    "state": "IA",
+    "drain_area_sqkm": 2725.647,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 882.74,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 115,
+    "n_channel_features": 851,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.895172,
+     42.463598
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05421740",
+    "monitoring_location_id": "USGS-05421740",
+    "station_name": "Wapsipinicon River near Anamosa, IA",
+    "lat": 42.083339,
+    "lng": -91.267382,
+    "state": "IA",
+    "drain_area_sqkm": 4094.893,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 754.37,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 112,
+    "n_channel_features": 192,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.267382,
+     42.083339
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05424057",
+    "monitoring_location_id": "USGS-05424057",
+    "station_name": "ROCK RIVER AT HORICON, WI",
+    "lat": 43.45027,
+    "lng": -88.63233,
+    "state": "WI",
+    "drain_area_sqkm": 1142.88,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 849.48,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 119,
+    "n_channel_features": 192,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.63233,
+     43.45027
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05425500",
+    "monitoring_location_id": "USGS-05425500",
+    "station_name": "ROCK RIVER AT WATERTOWN, WI",
+    "lat": 43.188055,
+    "lng": -88.726214,
+    "state": "WI",
+    "drain_area_sqkm": 2098.532,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 792.56,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 124,
+    "n_channel_features": 364,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.726214,
+     43.188055
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05426000",
+    "monitoring_location_id": "USGS-05426000",
+    "station_name": "CRAWFISH RIVER AT MILFORD, WI",
+    "lat": 43.1,
+    "lng": -88.84955,
+    "state": "WI",
+    "drain_area_sqkm": 2032.097,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 798,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 130,
+    "n_channel_features": 397,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.84955,
+     43.1
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05427085",
+    "monitoring_location_id": "USGS-05427085",
+    "station_name": "ROCK RIVER AT ROBERT STREET AT FORT ATKINSON, WI",
+    "lat": 42.927506,
+    "lng": -88.842885,
+    "state": "WI",
+    "drain_area_sqkm": 5857.162,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 765.16,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 0,
+    "has_bathymetry": 0,
+    "n_field_measurements": 118,
+    "n_channel_features": 220,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.842885,
+     42.927506
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05430500",
+    "monitoring_location_id": "USGS-05430500",
+    "station_name": "ROCK RIVER AT AFTON, WI",
+    "lat": 42.609179,
+    "lng": -89.070667,
+    "state": "WI",
+    "drain_area_sqkm": 7923.77,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 750,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 117,
+    "n_channel_features": 296,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.070667,
+     42.609179
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05432500",
+    "monitoring_location_id": "USGS-05432500",
+    "station_name": "PECATONICA RIVER AT DARLINGTON, WI",
+    "lat": 42.677779,
+    "lng": -90.118737,
+    "state": "WI",
+    "drain_area_sqkm": 705.6225,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 802.42,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 168,
+    "n_channel_features": 458,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.118737,
+     42.677779
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05433000",
+    "monitoring_location_id": "USGS-05433000",
+    "station_name": "EAST BR PECATONICA RIVER NEAR BLANCHARDVILLE, WI",
+    "lat": 42.785558,
+    "lng": -89.861235,
+    "state": "WI",
+    "drain_area_sqkm": 571.7655,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 796.83,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 146,
+    "n_channel_features": 412,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.861235,
+     42.785558
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05434500",
+    "monitoring_location_id": "USGS-05434500",
+    "station_name": "PECATONICA RIVER AT MARTINTOWN, WI",
+    "lat": 42.510009,
+    "lng": -89.80151,
+    "state": "WI",
+    "drain_area_sqkm": 2677.406,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 757.42,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 143,
+    "n_channel_features": 428,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.80151,
+     42.510009
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05435500",
+    "monitoring_location_id": "USGS-05435500",
+    "station_name": "PECATONICA RIVER AT FREEPORT, IL",
+    "lat": 42.302797,
+    "lng": -89.619561,
+    "state": "IL",
+    "drain_area_sqkm": 3435.407,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 742.41,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 97,
+    "n_channel_features": 453,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.619561,
+     42.302797
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05436500",
+    "monitoring_location_id": "USGS-05436500",
+    "station_name": "SUGAR RIVER NEAR BRODHEAD, WI",
+    "lat": 42.611676,
+    "lng": -89.398173,
+    "state": "WI",
+    "drain_area_sqkm": 1351.822,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 767.98,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 138,
+    "n_channel_features": 404,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.398173,
+     42.611676
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05437050",
+    "monitoring_location_id": "USGS-05437050",
+    "station_name": "PECATONICA RIVER NR SHIRLAND, ILL",
+    "lat": 42.438056,
+    "lng": -89.175,
+    "state": "IL",
+    "drain_area_sqkm": 6625.879,
+    "stream_order": 7,
+    "gage_datum_alt_ft": 711.59,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 101,
+    "n_channel_features": 152,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.175,
+     42.438056
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05438500",
+    "monitoring_location_id": "USGS-05438500",
+    "station_name": "KISHWAUKEE RIVER AT BELVIDERE, IL",
+    "lat": 42.256132,
+    "lng": -88.863156,
+    "state": "IL",
+    "drain_area_sqkm": 1404.788,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 738.5,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 87,
+    "n_channel_features": 438,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.863156,
+     42.256132
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05440000",
+    "monitoring_location_id": "USGS-05440000",
+    "station_name": "KISHWAUKEE RIVER NEAR PERRYVILLE, IL",
+    "lat": 42.194467,
+    "lng": -88.998713,
+    "state": "IL",
+    "drain_area_sqkm": 2847.03,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 691.95,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 90,
+    "n_channel_features": 450,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.998713,
+     42.194467
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05440700",
+    "monitoring_location_id": "USGS-05440700",
+    "station_name": "ROCK RIVER AT BYRON, IL",
+    "lat": 42.123081,
+    "lng": -89.25594,
+    "state": "IL",
+    "drain_area_sqkm": 19962.22,
+    "stream_order": 7,
+    "gage_datum_alt_ft": 666,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 86,
+    "n_channel_features": 185,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.25594,
+     42.123081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05444000",
+    "monitoring_location_id": "USGS-05444000",
+    "station_name": "ELKHORN CREEK NEAR PENROSE, IL",
+    "lat": 41.902807,
+    "lng": -89.696223,
+    "state": "IL",
+    "drain_area_sqkm": 376.3512,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 657.75,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "yes",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 87,
+    "n_channel_features": 453,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.696223,
+     41.902807
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05447500",
+    "monitoring_location_id": "USGS-05447500",
+    "station_name": "GREEN RIVER NEAR GENESEO, IL",
+    "lat": 41.488923,
+    "lng": -90.157619,
+    "state": "IL",
+    "drain_area_sqkm": 2575.741,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 577.68,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0709",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 89,
+    "n_channel_features": 452,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.157619,
+     41.488923
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05451500",
+    "monitoring_location_id": "USGS-05451500",
+    "station_name": "Iowa River at Marshalltown, IA",
+    "lat": 42.065821,
+    "lng": -92.9077,
+    "state": "IA",
+    "drain_area_sqkm": 3973.971,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 852.94,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 126,
+    "n_channel_features": 1151,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.9077,
+     42.065821
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05451700",
+    "monitoring_location_id": "USGS-05451700",
+    "station_name": "Timber Creek near Marshalltown, IA",
+    "lat": 42.008878,
+    "lng": -92.852421,
+    "state": "IA",
+    "drain_area_sqkm": 308.5146,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 856.62,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 124,
+    "n_channel_features": 908,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.852421,
+     42.008878
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05452000",
+    "monitoring_location_id": "USGS-05452000",
+    "station_name": "Salt Creek near Elberon, IA",
+    "lat": 41.964162,
+    "lng": -92.313242,
+    "state": "IA",
+    "drain_area_sqkm": 516.6864,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 783.34,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 114,
+    "n_channel_features": 1002,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.313242,
+     41.964162
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05453100",
+    "monitoring_location_id": "USGS-05453100",
+    "station_name": "Iowa River at Marengo, IA",
+    "lat": 41.812726,
+    "lng": -92.064792,
+    "state": "IA",
+    "drain_area_sqkm": 7237.921,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 720.45,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 118,
+    "n_channel_features": 1114,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.064792,
+     41.812726
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05453520",
+    "monitoring_location_id": "USGS-05453520",
+    "station_name": "Iowa River below Coralville Dam nr Coralville, IA",
+    "lat": 41.715293,
+    "lng": -91.53017,
+    "state": "IA",
+    "drain_area_sqkm": 8080.012,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 599.7,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 155,
+    "n_channel_features": 981,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.53017,
+     41.715293
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05454500",
+    "monitoring_location_id": "USGS-05454500",
+    "station_name": "Iowa River at Iowa City, IA",
+    "lat": 41.656683,
+    "lng": -91.541002,
+    "state": "IA",
+    "drain_area_sqkm": 8478.728,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 617.1,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 133,
+    "n_channel_features": 1390,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.541002,
+     41.656683
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05455500",
+    "monitoring_location_id": "USGS-05455500",
+    "station_name": "English River at Kalona, IA",
+    "lat": 41.469739,
+    "lng": -91.714613,
+    "state": "IA",
+    "drain_area_sqkm": 1486.906,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 633.28,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 118,
+    "n_channel_features": 1148,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.714613,
+     41.469739
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05457000",
+    "monitoring_location_id": "USGS-05457000",
+    "station_name": "CEDAR RIVER NEAR AUSTIN, MN",
+    "lat": 43.636352,
+    "lng": -92.974081,
+    "state": "MN",
+    "drain_area_sqkm": 1035.219,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 1162.08,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 139,
+    "n_channel_features": 798,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.974081,
+     43.636352
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05457700",
+    "monitoring_location_id": "USGS-05457700",
+    "station_name": "CEDAR RIVER AT CHARLES CITY, IA",
+    "lat": 43.062472,
+    "lng": -92.673245,
+    "state": "IA",
+    "drain_area_sqkm": 2783.164,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 973.15,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 136,
+    "n_channel_features": 656,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.673245,
+     43.062472
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05458500",
+    "monitoring_location_id": "USGS-05458500",
+    "station_name": "Cedar River at Janesville, IA",
+    "lat": 42.648316,
+    "lng": -92.465186,
+    "state": "IA",
+    "drain_area_sqkm": 4334.134,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 860.96,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 115,
+    "n_channel_features": 935,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.465186,
+     42.648316
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05458900",
+    "monitoring_location_id": "USGS-05458900",
+    "station_name": "West Fork Cedar River at Finchford, IA",
+    "lat": 42.629426,
+    "lng": -92.543522,
+    "state": "IA",
+    "drain_area_sqkm": 2205.097,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 867.06,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 109,
+    "n_channel_features": 831,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.543522,
+     42.629426
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05462000",
+    "monitoring_location_id": "USGS-05462000",
+    "station_name": "Shell Rock River at Shell Rock, IA",
+    "lat": 42.711925,
+    "lng": -92.582966,
+    "state": "IA",
+    "drain_area_sqkm": 4487.382,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 885.36,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 115,
+    "n_channel_features": 756,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.582966,
+     42.711925
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05463000",
+    "monitoring_location_id": "USGS-05463000",
+    "station_name": "Beaver Creek at New Hartford, IA",
+    "lat": 42.572759,
+    "lng": -92.61797,
+    "state": "IA",
+    "drain_area_sqkm": 903.0069,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 881.81,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 118,
+    "n_channel_features": 810,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.61797,
+     42.572759
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05463500",
+    "monitoring_location_id": "USGS-05463500",
+    "station_name": "Black Hawk Creek at Hudson, IA",
+    "lat": 42.407764,
+    "lng": -92.463245,
+    "state": "IA",
+    "drain_area_sqkm": 777.0222,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 864.96,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 119,
+    "n_channel_features": 719,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.463245,
+     42.407764
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05464220",
+    "monitoring_location_id": "USGS-05464220",
+    "station_name": "Wolf Creek near Dysart, IA",
+    "lat": 42.251658,
+    "lng": -92.298798,
+    "state": "IA",
+    "drain_area_sqkm": 775.195,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 829.38,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 118,
+    "n_channel_features": 234,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.298798,
+     42.251658
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05465000",
+    "monitoring_location_id": "USGS-05465000",
+    "station_name": "Cedar River near Conesville, IA",
+    "lat": 41.409192,
+    "lng": -91.290434,
+    "state": "IA",
+    "drain_area_sqkm": 20153.82,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 581.48,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 107,
+    "n_channel_features": 1099,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.290434,
+     41.409192
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05466000",
+    "monitoring_location_id": "USGS-05466000",
+    "station_name": "EDWARDS RIVER NEAR ORION, IL",
+    "lat": 41.27198,
+    "lng": -90.377627,
+    "state": "IL",
+    "drain_area_sqkm": 401.4297,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 653.47,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 93,
+    "n_channel_features": 456,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.377627,
+     41.27198
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05466500",
+    "monitoring_location_id": "USGS-05466500",
+    "station_name": "EDWARDS RIVER NEAR NEW BOSTON, IL",
+    "lat": 41.186977,
+    "lng": -90.967366,
+    "state": "IL",
+    "drain_area_sqkm": 1151.567,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 529.13,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "yes",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 115,
+    "n_channel_features": 512,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.967366,
+     41.186977
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05469000",
+    "monitoring_location_id": "USGS-05469000",
+    "station_name": "HENDERSON CREEK NEAR OQUAWKA, IL",
+    "lat": 41.001426,
+    "lng": -90.854307,
+    "state": "IL",
+    "drain_area_sqkm": 1126.56,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 540.64,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 109,
+    "n_channel_features": 470,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.854307,
+     41.001426
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471000",
+    "monitoring_location_id": "USGS-05471000",
+    "station_name": "South Skunk River below Squaw Creek near Ames, IA",
+    "lat": 42.006653,
+    "lng": -93.595495,
+    "state": "IA",
+    "drain_area_sqkm": 1454.435,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 857.86,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 142,
+    "n_channel_features": 740,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.595495,
+     42.006653
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471050",
+    "monitoring_location_id": "USGS-05471050",
+    "station_name": "South Skunk River at Colfax, IA",
+    "lat": 41.681378,
+    "lng": -93.246594,
+    "state": "IA",
+    "drain_area_sqkm": 2098.962,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 770,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 148,
+    "n_channel_features": 430,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.246594,
+     41.681378
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471500",
+    "monitoring_location_id": "USGS-05471500",
+    "station_name": "South Skunk River near Oskaloosa, IA",
+    "lat": 41.355699,
+    "lng": -92.657359,
+    "state": "IA",
+    "drain_area_sqkm": 4246.927,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 685.08,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 115,
+    "n_channel_features": 801,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.657359,
+     41.355699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05472500",
+    "monitoring_location_id": "USGS-05472500",
+    "station_name": "North Skunk River near Sigourney, IA",
+    "lat": 41.300845,
+    "lng": -92.204626,
+    "state": "IA",
+    "drain_area_sqkm": 1899.126,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 650.69,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 116,
+    "n_channel_features": 819,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.204626,
+     41.300845
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05473400",
+    "monitoring_location_id": "USGS-05473400",
+    "station_name": "Cedar Creek near Oakland Mills, IA",
+    "lat": 40.925305,
+    "lng": -91.67422,
+    "state": "IA",
+    "drain_area_sqkm": 1381.734,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 565.01,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0708",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 125,
+    "n_channel_features": 467,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.67422,
+     40.925305
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05515500",
+    "monitoring_location_id": "USGS-05515500",
+    "station_name": "KANKAKEE RIVER AT DAVIS, IND.",
+    "lat": 41.400042,
+    "lng": -86.701129,
+    "state": "IN",
+    "drain_area_sqkm": 1371.498,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 664.34,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 122,
+    "n_channel_features": 374,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.701129,
+     41.400042
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05517500",
+    "monitoring_location_id": "USGS-05517500",
+    "station_name": "KANKAKEE RIVER AT DUNNS BRIDGE, IND.",
+    "lat": 41.219484,
+    "lng": -86.968634,
+    "state": "IN",
+    "drain_area_sqkm": 3467.25,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 649.18,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 93,
+    "n_channel_features": 642,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.968634,
+     41.219484
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05517530",
+    "monitoring_location_id": "USGS-05517530",
+    "station_name": "KANKAKEE RIVER NR KOUTS, IND.",
+    "lat": 41.253928,
+    "lng": -87.033914,
+    "state": "IN",
+    "drain_area_sqkm": 3535.799,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 644.65,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 80,
+    "n_channel_features": 337,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.033914,
+     41.253928
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05518000",
+    "monitoring_location_id": "USGS-05518000",
+    "station_name": "KANKAKEE RIVER AT SHELBY, IN",
+    "lat": 41.182813,
+    "lng": -87.34031,
+    "state": "IN",
+    "drain_area_sqkm": 4587.032,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 627.94,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 101,
+    "n_channel_features": 763,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.34031,
+     41.182813
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05524500",
+    "monitoring_location_id": "USGS-05524500",
+    "station_name": "IROQUOIS RIVER NEAR FORESMAN, IN",
+    "lat": 40.870593,
+    "lng": -87.306691,
+    "state": "IN",
+    "drain_area_sqkm": 1167.568,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 623.81,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 76,
+    "n_channel_features": 328,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.306691,
+     40.870593
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05525000",
+    "monitoring_location_id": "USGS-05525000",
+    "station_name": "IROQUOIS RIVER AT IROQUOIS, IL",
+    "lat": 40.822813,
+    "lng": -87.581419,
+    "state": "IL",
+    "drain_area_sqkm": 1746.274,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 614.13,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 95,
+    "n_channel_features": 449,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.581419,
+     40.822813
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05525500",
+    "monitoring_location_id": "USGS-05525500",
+    "station_name": "SUGAR CREEK AT MILFORD, IL",
+    "lat": 40.630036,
+    "lng": -87.723918,
+    "state": "IL",
+    "drain_area_sqkm": 1158.759,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 620.75,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "yes",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 99,
+    "n_channel_features": 462,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.723918,
+     40.630036
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05532500",
+    "monitoring_location_id": "USGS-05532500",
+    "station_name": "DES PLAINES RIVER AT RIVERSIDE, IL",
+    "lat": 41.822254,
+    "lng": -87.820891,
+    "state": "IL",
+    "drain_area_sqkm": 1634.157,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 594.38,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 117,
+    "n_channel_features": 476,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.820891,
+     41.822254
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05537980",
+    "monitoring_location_id": "USGS-05537980",
+    "station_name": "DES PLAINES RIVER AT ROUTE 53 AT JOLIET, IL",
+    "lat": 41.53639,
+    "lng": -88.0825,
+    "state": "IL",
+    "drain_area_sqkm": 2925.773,
+    "stream_order": 5,
+    "gage_datum_alt_ft": -0.28,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 0,
+    "has_bathymetry": 0,
+    "n_field_measurements": 85,
+    "n_channel_features": 120,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.0825,
+     41.53639
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05541710",
+    "monitoring_location_id": "USGS-05541710",
+    "station_name": "AUX SABLE CREEK NEAR MORRIS, IL",
+    "lat": 41.417253,
+    "lng": -88.347566,
+    "state": "IL",
+    "drain_area_sqkm": 445.1454,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 514.37,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 119,
+    "n_channel_features": 157,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.347566,
+     41.417253
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05542000",
+    "monitoring_location_id": "USGS-05542000",
+    "station_name": "MAZON RIVER NEAR COAL CITY, IL",
+    "lat": 41.286143,
+    "lng": -88.359787,
+    "state": "IL",
+    "drain_area_sqkm": 1165.55,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 527.21,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 102,
+    "n_channel_features": 423,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.359787,
+     41.286143
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05545750",
+    "monitoring_location_id": "USGS-05545750",
+    "station_name": "FOX RIVER NEAR NEW MUNSTER, WI",
+    "lat": 42.610851,
+    "lng": -88.225923,
+    "state": "WI",
+    "drain_area_sqkm": 2054.15,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 735.6,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 125,
+    "n_channel_features": 278,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.225923,
+     42.610851
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05548280",
+    "monitoring_location_id": "USGS-05548280",
+    "station_name": "NIPPERSINK CREEK NEAR SPRING GROVE, IL",
+    "lat": 42.443353,
+    "lng": -88.247589,
+    "state": "IL",
+    "drain_area_sqkm": 498.2472,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 745.94,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 106,
+    "n_channel_features": 453,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.247589,
+     42.443353
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05550000",
+    "monitoring_location_id": "USGS-05550000",
+    "station_name": "FOX RIVER AT ALGONQUIN, IL",
+    "lat": 42.166413,
+    "lng": -88.29036,
+    "state": "IL",
+    "drain_area_sqkm": 3663.992,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 729.21,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 0,
+    "n_channel_features": 308,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.29036,
+     42.166413
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05551540",
+    "monitoring_location_id": "USGS-05551540",
+    "station_name": "FOX RIVER AT MONTGOMERY, IL",
+    "lat": 41.733611,
+    "lng": -88.333333,
+    "state": "IL",
+    "drain_area_sqkm": 4445.551,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 603.2,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0712",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 106,
+    "n_channel_features": 202,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.333333,
+     41.733611
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05554500",
+    "monitoring_location_id": "USGS-05554500",
+    "station_name": "VERMILION RIVER AT PONTIAC, IL",
+    "lat": 40.877811,
+    "lng": -88.636173,
+    "state": "IL",
+    "drain_area_sqkm": 1500.099,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 619.02,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 89,
+    "n_channel_features": 429,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.636173,
+     40.877811
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05555300",
+    "monitoring_location_id": "USGS-05555300",
+    "station_name": "VERMILION RIVER NEAR LEONORE, IL",
+    "lat": 41.208368,
+    "lng": -88.930912,
+    "state": "IL",
+    "drain_area_sqkm": 3253.545,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 521.14,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 95,
+    "n_channel_features": 452,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.930912,
+     41.208368
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05555500",
+    "monitoring_location_id": "USGS-05555500",
+    "station_name": "VERMILION RIVER AT LOWELL, IL",
+    "lat": 41.255313,
+    "lng": -89.012303,
+    "state": "IL",
+    "drain_area_sqkm": 3316.955,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 500.61,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "",
+    "has_coefficients": 0,
+    "has_bathymetry": 0,
+    "n_field_measurements": 0,
+    "n_channel_features": 0,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.012303,
+     41.255313
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05556500",
+    "monitoring_location_id": "USGS-05556500",
+    "station_name": "BIG BUREAU CREEK AT PRINCETON, IL",
+    "lat": 41.36587,
+    "lng": -89.498427,
+    "state": "IL",
+    "drain_area_sqkm": 505.0946,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 555.1,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "yes",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 89,
+    "n_channel_features": 829,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.498427,
+     41.36587
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05563500",
+    "monitoring_location_id": "USGS-05563500",
+    "station_name": "KICKAPOO CREEK AT PEORIA, IL",
+    "lat": 40.681149,
+    "lng": -89.655378,
+    "state": "IL",
+    "drain_area_sqkm": 768.6756,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 448.37,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 0,
+    "n_channel_features": 15,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.655378,
+     40.681149
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05567500",
+    "monitoring_location_id": "USGS-05567500",
+    "station_name": "MACKINAW RIVER NEAR CONGERVILLE, IL",
+    "lat": 40.623648,
+    "lng": -89.241752,
+    "state": "IL",
+    "drain_area_sqkm": 1982.459,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 606.77,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 106,
+    "n_channel_features": 426,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.241752,
+     40.623648
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05568000",
+    "monitoring_location_id": "USGS-05568000",
+    "station_name": "MACKINAW RIVER NEAR GREEN VALLEY, IL",
+    "lat": 40.454207,
+    "lng": -89.606214,
+    "state": "IL",
+    "drain_area_sqkm": 2775.387,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 476.67,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 104,
+    "n_channel_features": 289,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.606214,
+     40.454207
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05570000",
+    "monitoring_location_id": "USGS-05570000",
+    "station_name": "SPOON RIVER AT SEVILLE, IL",
+    "lat": 40.490041,
+    "lng": -90.340403,
+    "state": "IL",
+    "drain_area_sqkm": 4241.168,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 466.32,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 109,
+    "n_channel_features": 468,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.340403,
+     40.490041
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05570910",
+    "monitoring_location_id": "USGS-05570910",
+    "station_name": "SANGAMON RIVER AT FISHER, IL",
+    "lat": 40.310589,
+    "lng": -88.322275,
+    "state": "IL",
+    "drain_area_sqkm": 561.0462,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 683.2,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 108,
+    "n_channel_features": 391,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.322275,
+     40.310589
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05571000",
+    "monitoring_location_id": "USGS-05571000",
+    "station_name": "SANGAMON RIVER AT MAHOMET, IL",
+    "lat": 40.191699,
+    "lng": -88.400057,
+    "state": "IL",
+    "drain_area_sqkm": 944.0046,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 664.98,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "",
+    "has_coefficients": 0,
+    "has_bathymetry": 0,
+    "n_field_measurements": 0,
+    "n_channel_features": 0,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.400057,
+     40.191699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05572000",
+    "monitoring_location_id": "USGS-05572000",
+    "station_name": "SANGAMON RIVER AT MONTICELLO, IL",
+    "lat": 40.030867,
+    "lng": -88.588954,
+    "state": "IL",
+    "drain_area_sqkm": 1426.457,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 625.55,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 104,
+    "n_channel_features": 492,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.588954,
+     40.030867
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05573540",
+    "monitoring_location_id": "USGS-05573540",
+    "station_name": "SANGAMON RIVER AT RT 48 AT DECATUR, IL",
+    "lat": 39.831148,
+    "lng": -88.976467,
+    "state": "IL",
+    "drain_area_sqkm": 2433.287,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 583.17,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 109,
+    "n_channel_features": 356,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.976467,
+     39.831148
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05574500",
+    "monitoring_location_id": "USGS-05574500",
+    "station_name": "FLAT BRANCH NEAR TAYLORVILLE, IL",
+    "lat": 39.5525,
+    "lng": -89.253889,
+    "state": "IL",
+    "drain_area_sqkm": 718.1568,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 562.44,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 0,
+    "n_channel_features": 16,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.253889,
+     39.5525
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05576000",
+    "monitoring_location_id": "USGS-05576000",
+    "station_name": "SOUTH FORK SANGAMON RIVER NR ROCHESTER, IL",
+    "lat": 39.742272,
+    "lng": -89.567317,
+    "state": "IL",
+    "drain_area_sqkm": 2243.371,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 510.9,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 97,
+    "n_channel_features": 472,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.567317,
+     39.742272
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05576500",
+    "monitoring_location_id": "USGS-05576500",
+    "station_name": "SANGAMON RIVER AT RIVERTON, IL",
+    "lat": 39.843105,
+    "lng": -89.54732,
+    "state": "IL",
+    "drain_area_sqkm": 6784.395,
+    "stream_order": 6,
+    "gage_datum_alt_ft": 508,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 95,
+    "n_channel_features": 276,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.54732,
+     39.843105
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05578500",
+    "monitoring_location_id": "USGS-05578500",
+    "station_name": "SALT CREEK NEAR ROWELL, IL",
+    "lat": 40.115038,
+    "lng": -89.049251,
+    "state": "IL",
+    "drain_area_sqkm": 862.6382,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 609.51,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 97,
+    "n_channel_features": 444,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.049251,
+     40.115038
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05581500",
+    "monitoring_location_id": "USGS-05581500",
+    "station_name": "SUGAR CREEK NEAR HARTSBURG, IL",
+    "lat": 40.222265,
+    "lng": -89.403431,
+    "state": "IL",
+    "drain_area_sqkm": 861.4872,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 548.7,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "",
+    "has_coefficients": 1,
+    "has_bathymetry": 0,
+    "n_field_measurements": 0,
+    "n_channel_features": 28,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.403431,
+     40.222265
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05583000",
+    "monitoring_location_id": "USGS-05583000",
+    "station_name": "SANGAMON RIVER NEAR OAKFORD, IL",
+    "lat": 40.123935,
+    "lng": -89.985114,
+    "state": "IL",
+    "drain_area_sqkm": 13263.83,
+    "stream_order": 7,
+    "gage_datum_alt_ft": 452.5,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 100,
+    "n_channel_features": 500,
+    "has_annual_peaks": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.985114,
+     40.123935
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05584500",
+    "monitoring_location_id": "USGS-05584500",
+    "station_name": "LA MOINE RIVER AT COLMAR, IL",
+    "lat": 40.330322,
+    "lng": -90.896245,
+    "state": "IL",
+    "drain_area_sqkm": 1695.671,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 491.32,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "yes",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 105,
+    "n_channel_features": 450,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.896245,
+     40.330322
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05585000",
+    "monitoring_location_id": "USGS-05585000",
+    "station_name": "LA MOINE RIVER AT RIPLEY, IL",
+    "lat": 40.02477,
+    "lng": -90.631795,
+    "state": "IL",
+    "drain_area_sqkm": 3354.608,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 430.57,
+    "gagesii_class": "Ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "yes",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 112,
+    "n_channel_features": 526,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.631795,
+     40.02477
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05587000",
+    "monitoring_location_id": "USGS-05587000",
+    "station_name": "MACOUPIN CREEK NEAR KANE, IL",
+    "lat": 39.234214,
+    "lng": -90.394562,
+    "state": "IL",
+    "drain_area_sqkm": 2241.334,
+    "stream_order": 5,
+    "gage_datum_alt_ft": 426.3,
+    "gagesii_class": "Non-ref",
+    "huc02": "07",
+    "huc4": "0713",
+    "hcdn_2009": "",
+    "active_2009": "yes",
+    "has_coefficients": 1,
+    "has_bathymetry": 1,
+    "n_field_measurements": 125,
+    "n_channel_features": 546,
+    "has_annual_peaks": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.394562,
+     39.234214
+    ]
+   }
+  }
+ ]
+}

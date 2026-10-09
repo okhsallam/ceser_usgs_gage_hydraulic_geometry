@@ -1,0 +1,2056 @@
+{
+ "type": "FeatureCollection",
+ "name": "channel_bathymetry",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05411850",
+    "huc4": "0706",
+    "station_name": "Turkey River near Eldorado, IA",
+    "lat": 43.0541879264244,
+    "lng": -91.8090982653687,
+    "stream_order": 5,
+    "drain_area_sqkm": 1664.225,
+    "max_width_m": 83.77988849287027,
+    "max_depth_m": 3.7966345978032647,
+    "gage_datum_alt_va_m": 271.351248,
+    "riverbed_elev_m": 272.4835183330011,
+    "dem_elev_m_10m": 272.83978271484375,
+    "burn_value_m_10m": 0.3562643818426636,
+    "dem_elev_m_30m": 273.03460693359375,
+    "burn_value_m_30m": 0.5510886005926636,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.8090982653687,
+     43.0541879264244
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412020",
+    "huc4": "0706",
+    "station_name": "Turkey River above French Hollow Cr at Elkader, IA",
+    "lat": 42.8434851705994,
+    "lng": -91.4012767402577,
+    "stream_order": 5,
+    "drain_area_sqkm": 2355.58,
+    "max_width_m": 86.98050754577662,
+    "max_depth_m": 3.9457045664089163,
+    "gage_datum_alt_va_m": 211.72932,
+    "riverbed_elev_m": 212.72788233452346,
+    "dem_elev_m_10m": 213.5704345703125,
+    "burn_value_m_10m": 0.8425522357890429,
+    "dem_elev_m_30m": 213.7523193359375,
+    "burn_value_m_30m": 1.024437001414043,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.4012767402577,
+     42.8434851705994
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412400",
+    "huc4": "0706",
+    "station_name": "Volga River at Littleport, IA",
+    "lat": 42.7538753144323,
+    "lng": -91.3690252075114,
+    "stream_order": 5,
+    "drain_area_sqkm": 942.5907,
+    "max_width_m": 47.77965800968987,
+    "max_depth_m": 3.7878705031181727,
+    "gage_datum_alt_va_m": 206.282544,
+    "riverbed_elev_m": 207.10547006281843,
+    "dem_elev_m_10m": 208.05160522460938,
+    "burn_value_m_10m": 0.9461351617909486,
+    "dem_elev_m_30m": 208.84536743164062,
+    "burn_value_m_30m": 1.7398973688221986,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.3690252075114,
+     42.7538753144323
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412500",
+    "huc4": "0706",
+    "station_name": "Turkey River at Garber, IA",
+    "lat": 42.7399884281497,
+    "lng": -91.2617990802579,
+    "stream_order": 6,
+    "drain_area_sqkm": 3858.214,
+    "max_width_m": 83.85231972612644,
+    "max_depth_m": 5.430552167501768,
+    "gage_datum_alt_va_m": 194.730624,
+    "riverbed_elev_m": 195.64309880995032,
+    "dem_elev_m_10m": 196.37899780273438,
+    "burn_value_m_10m": 0.7358989927840582,
+    "dem_elev_m_30m": 196.41424560546875,
+    "burn_value_m_30m": 0.7711467955184332,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.2617990802579,
+     42.7399884281497
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05413500",
+    "huc4": "0706",
+    "station_name": "GRANT RIVER AT BURTON, WI",
+    "lat": 42.72027777777778,
+    "lng": -90.81916666666666,
+    "stream_order": 5,
+    "drain_area_sqkm": 695.3256,
+    "max_width_m": 49.07440175040841,
+    "max_depth_m": 4.768698985736106,
+    "gage_datum_alt_va_m": 184.751472,
+    "riverbed_elev_m": 185.4109921089669,
+    "dem_elev_m_10m": 186.8238525390625,
+    "burn_value_m_10m": 1.4128604300956056,
+    "dem_elev_m_30m": 188.17019653320312,
+    "burn_value_m_30m": 2.7592044242362306,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.81916666666666,
+     42.72027777777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05416900",
+    "huc4": "0706",
+    "station_name": "Maquoketa River at Manchester, IA",
+    "lat": 42.4699878417593,
+    "lng": -91.4487146874303,
+    "stream_order": 5,
+    "drain_area_sqkm": 722.7054,
+    "max_width_m": 102.12952443825517,
+    "max_depth_m": 4.189400003622597,
+    "gage_datum_alt_va_m": 274.402296,
+    "riverbed_elev_m": 275.17622049045553,
+    "dem_elev_m_10m": 276.1230163574219,
+    "burn_value_m_10m": 0.9467958669663403,
+    "dem_elev_m_30m": 276.2438049316406,
+    "burn_value_m_30m": 1.0675844411850903,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.4487146874303,
+     42.4699878417593
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05418400",
+    "huc4": "0706",
+    "station_name": "North Fork Maquoketa River near Fulton, IA",
+    "lat": 42.1643333333333,
+    "lng": -90.7293333333333,
+    "stream_order": 5,
+    "drain_area_sqkm": 1302.337,
+    "max_width_m": 71.52856353271272,
+    "max_depth_m": 4.553846968349752,
+    "gage_datum_alt_va_m": 206.831184,
+    "riverbed_elev_m": 207.15215626197534,
+    "dem_elev_m_10m": 208.3099365234375,
+    "burn_value_m_10m": 1.1577802614621646,
+    "dem_elev_m_30m": 208.42282104492188,
+    "burn_value_m_30m": 1.2706647829465396,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.7293333333333,
+     42.1643333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05418500",
+    "huc4": "0706",
+    "station_name": "Maquoketa River near Maquoketa, IA",
+    "lat": 42.0833527777778,
+    "lng": -90.6329166666667,
+    "stream_order": 6,
+    "drain_area_sqkm": 4019.218,
+    "max_width_m": 157.97781143697213,
+    "max_depth_m": 4.593843690774796,
+    "gage_datum_alt_va_m": 190.692024,
+    "riverbed_elev_m": 193.0119051358399,
+    "dem_elev_m_10m": 194.1183624267578,
+    "burn_value_m_10m": 1.1064572909179162,
+    "dem_elev_m_30m": 194.12449645996094,
+    "burn_value_m_30m": 1.1125913241210412,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.6329166666667,
+     42.0833527777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05419000",
+    "huc4": "0706",
+    "station_name": "APPLE RIVER NEAR HANOVER, IL",
+    "lat": 42.2583333333333,
+    "lng": -90.285,
+    "stream_order": 5,
+    "drain_area_sqkm": 638.6625,
+    "max_width_m": 73.69899074059293,
+    "max_depth_m": 5.296227814233152,
+    "gage_datum_alt_va_m": 184.958736,
+    "riverbed_elev_m": 184.21598928493464,
+    "dem_elev_m_10m": 184.22439575195312,
+    "burn_value_m_10m": 0.008406467018488684,
+    "dem_elev_m_30m": 185.0419921875,
+    "burn_value_m_30m": 0.8260029025653637,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.285,
+     42.2583333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05420680",
+    "huc4": "0708",
+    "station_name": "Wapsipinicon River near Tripoli, IA",
+    "lat": 42.8360916666667,
+    "lng": -92.2574,
+    "stream_order": 5,
+    "drain_area_sqkm": 896.9979,
+    "max_width_m": 221.42937543729576,
+    "max_depth_m": 2.9387192011643384,
+    "gage_datum_alt_va_m": 300.651672,
+    "riverbed_elev_m": 302.23017242179935,
+    "dem_elev_m_10m": 303.44000244140625,
+    "burn_value_m_10m": 1.2098300196068976,
+    "dem_elev_m_30m": 303.5080261230469,
+    "burn_value_m_30m": 1.2778537012475226,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.2574,
+     42.8360916666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05421000",
+    "huc4": "0708",
+    "station_name": "Wapsipinicon River at Independence, IA",
+    "lat": 42.4635979570031,
+    "lng": -91.895172206551,
+    "stream_order": 5,
+    "drain_area_sqkm": 2725.647,
+    "max_width_m": 87.67321647940828,
+    "max_depth_m": 4.6703818787843066,
+    "gage_datum_alt_va_m": 269.059152,
+    "riverbed_elev_m": 269.5901940040424,
+    "dem_elev_m_10m": null,
+    "burn_value_m_10m": null,
+    "dem_elev_m_30m": 269.8309326171875,
+    "burn_value_m_30m": 0.2407386131450835,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.895172206551,
+     42.4635979570031
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05421740",
+    "huc4": "0708",
+    "station_name": "Wapsipinicon River near Anamosa, IA",
+    "lat": 42.0833611111111,
+    "lng": -91.2673888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 4094.893,
+    "max_width_m": 93.97432374496712,
+    "max_depth_m": 4.84260158620679,
+    "gage_datum_alt_va_m": 229.931976,
+    "riverbed_elev_m": 230.80395496813549,
+    "dem_elev_m_10m": 231.83999633789062,
+    "burn_value_m_10m": 1.0360413697551394,
+    "dem_elev_m_30m": 231.8877410888672,
+    "burn_value_m_30m": 1.0837861207317019,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.2673888888889,
+     42.0833611111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05425500",
+    "huc4": "0709",
+    "station_name": "ROCK RIVER AT WATERTOWN, WI",
+    "lat": 43.1880555555556,
+    "lng": -88.7261111111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 2098.532,
+    "max_width_m": 69.23903919721985,
+    "max_depth_m": 1.2357824598804235,
+    "gage_datum_alt_va_m": 241.572288,
+    "riverbed_elev_m": 241.59626460162028,
+    "dem_elev_m_10m": 242.57313537597656,
+    "burn_value_m_10m": 0.9768707743562857,
+    "dem_elev_m_30m": 242.84664916992188,
+    "burn_value_m_30m": 1.2503845683015982,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.7261111111111,
+     43.1880555555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05432500",
+    "huc4": "0709",
+    "station_name": "PECATONICA RIVER AT DARLINGTON, WI",
+    "lat": 42.6777777777778,
+    "lng": -90.1186111111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 705.6225,
+    "max_width_m": 75.06180960447824,
+    "max_depth_m": 3.512257051274951,
+    "gage_datum_alt_va_m": 244.577616,
+    "riverbed_elev_m": 244.53662210845908,
+    "dem_elev_m_10m": 245.89573669433594,
+    "burn_value_m_10m": 1.3591145858768527,
+    "dem_elev_m_30m": 246.6304931640625,
+    "burn_value_m_30m": 2.0938710556034152,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1186111111111,
+     42.6777777777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05433000",
+    "huc4": "0709",
+    "station_name": "EAST BR PECATONICA RIVER NEAR BLANCHARDVILLE, WI",
+    "lat": 42.7855555555556,
+    "lng": -89.8611111111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 571.7655,
+    "max_width_m": 38.181819112899866,
+    "max_depth_m": 3.7782344789996487,
+    "gage_datum_alt_va_m": 242.873784,
+    "riverbed_elev_m": 243.30560016504117,
+    "dem_elev_m_10m": 244.6736297607422,
+    "burn_value_m_10m": 1.3680295957010173,
+    "dem_elev_m_30m": 245.28643798828125,
+    "burn_value_m_30m": 1.9808378232400798,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.8611111111111,
+     42.7855555555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05434500",
+    "huc4": "0709",
+    "station_name": "PECATONICA RIVER AT MARTINTOWN, WI",
+    "lat": 42.51,
+    "lng": -89.8013888888889,
+    "stream_order": 6,
+    "drain_area_sqkm": 2677.406,
+    "max_width_m": 80.73565636193962,
+    "max_depth_m": 5.553703390547188,
+    "gage_datum_alt_va_m": 230.861616,
+    "riverbed_elev_m": 230.89616953499657,
+    "dem_elev_m_10m": 232.6573486328125,
+    "burn_value_m_10m": 1.7611790978159263,
+    "dem_elev_m_30m": 232.78729248046875,
+    "burn_value_m_30m": 1.8911229454721763,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.8013888888889,
+     42.51
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05435500",
+    "huc4": "0709",
+    "station_name": "PECATONICA RIVER AT FREEPORT, IL",
+    "lat": 42.3002777777778,
+    "lng": -89.6152777777778,
+    "stream_order": 6,
+    "drain_area_sqkm": 3435.407,
+    "max_width_m": 91.92284463511184,
+    "max_depth_m": 4.639020499268052,
+    "gage_datum_alt_va_m": 226.286568,
+    "riverbed_elev_m": 225.6066892139235,
+    "dem_elev_m_10m": 228.7500762939453,
+    "burn_value_m_10m": 3.1433870800218244,
+    "dem_elev_m_30m": 228.8514404296875,
+    "burn_value_m_30m": 3.244751215764012,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.6152777777778,
+     42.3002777777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05436500",
+    "huc4": "0709",
+    "station_name": "SUGAR RIVER NEAR BRODHEAD, WI",
+    "lat": 42.6123055555556,
+    "lng": -89.3979722222222,
+    "stream_order": 6,
+    "drain_area_sqkm": 1351.822,
+    "max_width_m": 68.72629424916367,
+    "max_depth_m": 2.824994954567016,
+    "gage_datum_alt_va_m": 234.080304,
+    "riverbed_elev_m": 233.78085212418185,
+    "dem_elev_m_10m": 234.49301147460938,
+    "burn_value_m_10m": 0.7121593504275268,
+    "dem_elev_m_30m": 234.49411010742188,
+    "burn_value_m_30m": 0.7132579832400268,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.3979722222222,
+     42.6123055555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05437050",
+    "huc4": "0709",
+    "station_name": "PECATONICA RIVER NR SHIRLAND, ILL",
+    "lat": 42.4380555555556,
+    "lng": -89.175,
+    "stream_order": 7,
+    "drain_area_sqkm": 6625.879,
+    "max_width_m": 98.81487803074697,
+    "max_depth_m": 4.795594442515694,
+    "gage_datum_alt_va_m": 216.892632,
+    "riverbed_elev_m": 216.65794461462193,
+    "dem_elev_m_10m": 218.8139190673828,
+    "burn_value_m_10m": 2.155974452760887,
+    "dem_elev_m_30m": 218.81509399414062,
+    "burn_value_m_30m": 2.1571493795186996,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.175,
+     42.4380555555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05438500",
+    "huc4": "0709",
+    "station_name": "KISHWAUKEE RIVER AT BELVIDERE, IL",
+    "lat": 42.2561320777989,
+    "lng": -88.8631564848154,
+    "stream_order": 5,
+    "drain_area_sqkm": 1404.788,
+    "max_width_m": 75.77621046332554,
+    "max_depth_m": 2.3213274321718917,
+    "gage_datum_alt_va_m": 225.0948,
+    "riverbed_elev_m": 225.00198495736956,
+    "dem_elev_m_10m": 225.45138549804688,
+    "burn_value_m_10m": 0.44940054067731694,
+    "dem_elev_m_30m": 226.14794921875,
+    "burn_value_m_30m": 1.145964261380442,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.8631564848154,
+     42.2561320777989
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05440000",
+    "huc4": "0709",
+    "station_name": "KISHWAUKEE RIVER NEAR PERRYVILLE, IL",
+    "lat": 42.1944444444444,
+    "lng": -88.9988888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 2847.03,
+    "max_width_m": 78.7672998530683,
+    "max_depth_m": 3.477633468592852,
+    "gage_datum_alt_va_m": 210.90636,
+    "riverbed_elev_m": 212.01915859994904,
+    "dem_elev_m_10m": 212.7375946044922,
+    "burn_value_m_10m": 0.7184360045431504,
+    "dem_elev_m_30m": 212.8043975830078,
+    "burn_value_m_30m": 0.7852389830587754,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.9988888888889,
+     42.1944444444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05440700",
+    "huc4": "0709",
+    "station_name": "ROCK RIVER AT BYRON, IL",
+    "lat": 42.1221888888889,
+    "lng": -89.2553638888889,
+    "stream_order": 7,
+    "drain_area_sqkm": 19962.22,
+    "max_width_m": 203.58616603243985,
+    "max_depth_m": 4.091512077495845,
+    "gage_datum_alt_va_m": 202.9968,
+    "riverbed_elev_m": 203.06229263781276,
+    "dem_elev_m_10m": 205.64999389648438,
+    "burn_value_m_10m": 2.587701258671615,
+    "dem_elev_m_30m": 205.64999389648438,
+    "burn_value_m_30m": 2.587701258671615,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.2553638888889,
+     42.1221888888889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05447500",
+    "huc4": "0709",
+    "station_name": "GREEN RIVER NEAR GENESEO, IL",
+    "lat": 41.4889333333333,
+    "lng": -90.1580083333333,
+    "stream_order": 6,
+    "drain_area_sqkm": 2575.741,
+    "max_width_m": 45.271730343044744,
+    "max_depth_m": 4.982735935118897,
+    "gage_datum_alt_va_m": 176.076864,
+    "riverbed_elev_m": 176.25900603578904,
+    "dem_elev_m_10m": 178.1970672607422,
+    "burn_value_m_10m": 1.9380612249531453,
+    "dem_elev_m_30m": 178.5458984375,
+    "burn_value_m_30m": 2.2868924017109578,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1580083333333,
+     41.4889333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05451500",
+    "huc4": "0708",
+    "station_name": "Iowa River at Marshalltown, IA",
+    "lat": 42.0658209608557,
+    "lng": -92.907699735576,
+    "stream_order": 5,
+    "drain_area_sqkm": 3973.971,
+    "max_width_m": 330.649614798516,
+    "max_depth_m": 3.3182109514636395,
+    "gage_datum_alt_va_m": 259.976112,
+    "riverbed_elev_m": 262.15564275514936,
+    "dem_elev_m_10m": 263.3400573730469,
+    "burn_value_m_10m": 1.1844146178975166,
+    "dem_elev_m_30m": 263.3849792480469,
+    "burn_value_m_30m": 1.2293364928975166,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.907699735576,
+     42.0658209608557
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05452000",
+    "huc4": "0708",
+    "station_name": "Salt Creek near Elberon, IA",
+    "lat": 41.9641611111111,
+    "lng": -92.3132416666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 516.6864,
+    "max_width_m": 85.61554277712031,
+    "max_depth_m": 2.5866068004059657,
+    "gage_datum_alt_va_m": 238.762032,
+    "riverbed_elev_m": 240.00927239707988,
+    "dem_elev_m_10m": 240.92776489257812,
+    "burn_value_m_10m": 0.9184924954982421,
+    "dem_elev_m_30m": 241.09791564941406,
+    "burn_value_m_30m": 1.0886432523341796,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.3132416666667,
+     41.9641611111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05453100",
+    "huc4": "0708",
+    "station_name": "Iowa River at Marengo, IA",
+    "lat": 41.8127256616889,
+    "lng": -92.0647920593456,
+    "stream_order": 6,
+    "drain_area_sqkm": 7237.921,
+    "max_width_m": 388.38373188223005,
+    "max_depth_m": 3.192093211608906,
+    "gage_datum_alt_va_m": 219.59316,
+    "riverbed_elev_m": 220.42813964458009,
+    "dem_elev_m_10m": 222.61000061035156,
+    "burn_value_m_10m": 2.1818609657714774,
+    "dem_elev_m_30m": 222.6100311279297,
+    "burn_value_m_30m": 2.1818914833496024,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.0647920593456,
+     41.8127256616889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05453520",
+    "huc4": "0708",
+    "station_name": "Iowa River below Coralville Dam nr Coralville, IA",
+    "lat": 41.7152944444444,
+    "lng": -91.5301666666667,
+    "stream_order": 6,
+    "drain_area_sqkm": 8080.012,
+    "max_width_m": 142.16357057054034,
+    "max_depth_m": 4.811531267790401,
+    "gage_datum_alt_va_m": 182.78856,
+    "riverbed_elev_m": 194.96844874708708,
+    "dem_elev_m_10m": 198.3000030517578,
+    "burn_value_m_10m": 3.331554304670732,
+    "dem_elev_m_30m": 198.3004608154297,
+    "burn_value_m_30m": 3.332012068342607,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.5301666666667,
+     41.7152944444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05454500",
+    "huc4": "0708",
+    "station_name": "Iowa River at Iowa City, IA",
+    "lat": 41.6566833333333,
+    "lng": -91.541,
+    "stream_order": 6,
+    "drain_area_sqkm": 8478.728,
+    "max_width_m": 110.46539071040219,
+    "max_depth_m": 4.122080911994051,
+    "gage_datum_alt_va_m": 188.09208,
+    "riverbed_elev_m": 190.06461718481776,
+    "dem_elev_m_10m": 191.9897003173828,
+    "burn_value_m_10m": 1.9250831325650495,
+    "dem_elev_m_30m": 191.9902801513672,
+    "burn_value_m_30m": 1.9256629665494245,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.541,
+     41.6566833333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05455500",
+    "huc4": "0708",
+    "station_name": "English River at Kalona, IA",
+    "lat": 41.4697387242571,
+    "lng": -91.7146129287325,
+    "stream_order": 5,
+    "drain_area_sqkm": 1486.906,
+    "max_width_m": 72.65379165124371,
+    "max_depth_m": 4.616409982189438,
+    "gage_datum_alt_va_m": 193.023744,
+    "riverbed_elev_m": 193.5316460508229,
+    "dem_elev_m_10m": 194.33999633789062,
+    "burn_value_m_10m": 0.808350287067725,
+    "dem_elev_m_30m": 195.2518768310547,
+    "burn_value_m_30m": 1.7202307802317875,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.7146129287325,
+     41.4697387242571
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05457000",
+    "huc4": "0708",
+    "station_name": "CEDAR RIVER NEAR AUSTIN, MN",
+    "lat": 43.63757,
+    "lng": -92.974797,
+    "stream_order": 5,
+    "drain_area_sqkm": 1035.219,
+    "max_width_m": 42.44823623900567,
+    "max_depth_m": 3.6123628403208734,
+    "gage_datum_alt_va_m": 354.201984,
+    "riverbed_elev_m": 354.57856190067787,
+    "dem_elev_m_10m": 354.6535949707031,
+    "burn_value_m_10m": 0.07503307002525617,
+    "dem_elev_m_30m": 355.508056640625,
+    "burn_value_m_30m": 0.9294947399471312,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.974797,
+     43.63757
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05457700",
+    "huc4": "0708",
+    "station_name": "CEDAR RIVER AT CHARLES CITY, IA",
+    "lat": 43.0621944444444,
+    "lng": -92.6738833333333,
+    "stream_order": 5,
+    "drain_area_sqkm": 2783.164,
+    "max_width_m": 83.80448829873328,
+    "max_depth_m": 4.617276568677435,
+    "gage_datum_alt_va_m": 296.61612,
+    "riverbed_elev_m": 296.7422988798961,
+    "dem_elev_m_10m": 297.80413818359375,
+    "burn_value_m_10m": 1.0618393036976386,
+    "dem_elev_m_30m": 297.8297424316406,
+    "burn_value_m_30m": 1.0874435517445136,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.6738833333333,
+     43.0621944444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05458500",
+    "huc4": "0708",
+    "station_name": "Cedar River at Janesville, IA",
+    "lat": 42.6483166666667,
+    "lng": -92.4651861111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 4334.134,
+    "max_width_m": 139.67055629144403,
+    "max_depth_m": 4.396649513876095,
+    "gage_datum_alt_va_m": 262.420608,
+    "riverbed_elev_m": 261.74037567402695,
+    "dem_elev_m_10m": 265.12933349609375,
+    "burn_value_m_10m": 3.3889578220668,
+    "dem_elev_m_30m": 265.1401062011719,
+    "burn_value_m_30m": 3.399730527144925,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.4651861111111,
+     42.6483166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05458900",
+    "huc4": "0708",
+    "station_name": "West Fork Cedar River at Finchford, IA",
+    "lat": 42.6294277777778,
+    "lng": -92.5435222222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 2205.097,
+    "max_width_m": 137.56111150510398,
+    "max_depth_m": 2.374436769897871,
+    "gage_datum_alt_va_m": 264.279888,
+    "riverbed_elev_m": 265.51898271034617,
+    "dem_elev_m_10m": 266.7799987792969,
+    "burn_value_m_10m": 1.2610160689507097,
+    "dem_elev_m_30m": 266.796630859375,
+    "burn_value_m_30m": 1.2776481490288347,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.5435222222222,
+     42.6294277777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05462000",
+    "huc4": "0708",
+    "station_name": "Shell Rock River at Shell Rock, IA",
+    "lat": 42.711925,
+    "lng": -92.5829666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 4487.382,
+    "max_width_m": 123.76863626281833,
+    "max_depth_m": 4.828977311171185,
+    "gage_datum_alt_va_m": 269.857728,
+    "riverbed_elev_m": 270.881200587988,
+    "dem_elev_m_10m": 271.58843994140625,
+    "burn_value_m_10m": 0.7072393534182311,
+    "dem_elev_m_30m": 271.6086120605469,
+    "burn_value_m_30m": 0.7274114725588561,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.5829666666667,
+     42.711925
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05463000",
+    "huc4": "0708",
+    "station_name": "Beaver Creek at New Hartford, IA",
+    "lat": 42.572,
+    "lng": -92.6182777777778,
+    "stream_order": 5,
+    "drain_area_sqkm": 903.0069,
+    "max_width_m": 126.48484833826366,
+    "max_depth_m": 8.026777183883977,
+    "gage_datum_alt_va_m": 268.775688,
+    "riverbed_elev_m": 265.32091081611605,
+    "dem_elev_m_10m": 269.80755615234375,
+    "burn_value_m_10m": 4.486645336227696,
+    "dem_elev_m_30m": 269.8929138183594,
+    "burn_value_m_30m": 4.572003002243321,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.6182777777778,
+     42.572
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05463500",
+    "huc4": "0708",
+    "station_name": "Black Hawk Creek at Hudson, IA",
+    "lat": 42.4077638888889,
+    "lng": -92.4632472222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 777.0222,
+    "max_width_m": 112.58594433260447,
+    "max_depth_m": 3.8352157370078777,
+    "gage_datum_alt_va_m": 263.639808,
+    "riverbed_elev_m": 264.66996934895997,
+    "dem_elev_m_10m": 265.8849182128906,
+    "burn_value_m_10m": 1.2149488639306583,
+    "dem_elev_m_30m": 266.1631164550781,
+    "burn_value_m_30m": 1.4931471061181583,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.4632472222222,
+     42.4077638888889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05464220",
+    "huc4": "0708",
+    "station_name": "Wolf Creek near Dysart, IA",
+    "lat": 42.2515277777778,
+    "lng": -92.2988888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 775.195,
+    "max_width_m": 69.54596076176112,
+    "max_depth_m": 3.0021346053549394,
+    "gage_datum_alt_va_m": 252.795024,
+    "riverbed_elev_m": 252.9449994774749,
+    "dem_elev_m_10m": 253.50364685058594,
+    "burn_value_m_10m": 0.5586473731110289,
+    "dem_elev_m_30m": 254.17489624023438,
+    "burn_value_m_30m": 1.2298967627594664,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.2988888888889,
+     42.2515277777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05465000",
+    "huc4": "0708",
+    "station_name": "Cedar River near Conesville, IA",
+    "lat": 41.4091916666667,
+    "lng": -91.2904305555556,
+    "stream_order": 6,
+    "drain_area_sqkm": 20153.82,
+    "max_width_m": 500.4721815694907,
+    "max_depth_m": 20.577074474512504,
+    "gage_datum_alt_va_m": 177.235104,
+    "riverbed_elev_m": 162.12309352548752,
+    "dem_elev_m_10m": 179.58042907714844,
+    "burn_value_m_10m": 17.45733555166092,
+    "dem_elev_m_30m": 179.58717346191406,
+    "burn_value_m_30m": 17.464079936426543,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.2904305555556,
+     41.4091916666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05466000",
+    "huc4": "0708",
+    "station_name": "EDWARDS RIVER NEAR ORION, IL",
+    "lat": 41.27224722222222,
+    "lng": -90.37749166666666,
+    "stream_order": 5,
+    "drain_area_sqkm": 401.4297,
+    "max_width_m": 40.35287165899779,
+    "max_depth_m": 2.9699873665984757,
+    "gage_datum_alt_va_m": 199.177656,
+    "riverbed_elev_m": 199.26541930737923,
+    "dem_elev_m_10m": 200.02536010742188,
+    "burn_value_m_10m": 0.7599408000426422,
+    "dem_elev_m_30m": 201.3844451904297,
+    "burn_value_m_30m": 2.1190258830504547,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.37749166666666,
+     41.27224722222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05466500",
+    "huc4": "0708",
+    "station_name": "EDWARDS RIVER NEAR NEW BOSTON, IL",
+    "lat": 41.1869773837497,
+    "lng": -90.9673663184279,
+    "stream_order": 5,
+    "drain_area_sqkm": 1151.567,
+    "max_width_m": 191.24106179193933,
+    "max_depth_m": 2.5307080666057686,
+    "gage_datum_alt_va_m": 161.278824,
+    "riverbed_elev_m": 164.3529529696362,
+    "dem_elev_m_10m": 165.8506317138672,
+    "burn_value_m_10m": 1.4976787442309956,
+    "dem_elev_m_30m": 166.17762756347656,
+    "burn_value_m_30m": 1.8246745938403706,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.9673663184279,
+     41.1869773837497
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05469000",
+    "huc4": "0708",
+    "station_name": "HENDERSON CREEK NEAR OQUAWKA, IL",
+    "lat": 41.001425,
+    "lng": -90.8543083333333,
+    "stream_order": 5,
+    "drain_area_sqkm": 1126.56,
+    "max_width_m": 98.32927812253176,
+    "max_depth_m": 3.8378648188463846,
+    "gage_datum_alt_va_m": 164.787072,
+    "riverbed_elev_m": 168.04121624252264,
+    "dem_elev_m_10m": 169.59178161621094,
+    "burn_value_m_10m": 1.5505653736883005,
+    "dem_elev_m_30m": 170.37696838378906,
+    "burn_value_m_30m": 2.3357521412664255,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.8543083333333,
+     41.001425
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471000",
+    "huc4": "0708",
+    "station_name": "South Skunk River below Squaw Creek near Ames, IA",
+    "lat": 42.0082222222222,
+    "lng": -93.5959722222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 1454.435,
+    "max_width_m": 750.3521042302723,
+    "max_depth_m": 4.0276316599483595,
+    "gage_datum_alt_va_m": 261.475728,
+    "riverbed_elev_m": 263.83657452650874,
+    "dem_elev_m_10m": 264.60467529296875,
+    "burn_value_m_10m": 0.7681007664600088,
+    "dem_elev_m_30m": 264.66717529296875,
+    "burn_value_m_30m": 0.8306007664600088,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.5959722222222,
+     42.0082222222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471050",
+    "huc4": "0708",
+    "station_name": "South Skunk River at Colfax, IA",
+    "lat": 41.6818055555556,
+    "lng": -93.2468333333333,
+    "stream_order": 5,
+    "drain_area_sqkm": 2098.962,
+    "max_width_m": 231.82641000185075,
+    "max_depth_m": 4.173031230514704,
+    "gage_datum_alt_va_m": 234.696,
+    "riverbed_elev_m": 236.45680388968648,
+    "dem_elev_m_10m": 237.2759552001953,
+    "burn_value_m_10m": 0.8191513105088291,
+    "dem_elev_m_30m": 237.40261840820312,
+    "burn_value_m_30m": 0.9458145185166416,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.2468333333333,
+     41.6818055555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471500",
+    "huc4": "0708",
+    "station_name": "South Skunk River near Oskaloosa, IA",
+    "lat": 41.3557027777778,
+    "lng": -92.6573555555556,
+    "stream_order": 6,
+    "drain_area_sqkm": 4246.927,
+    "max_width_m": 108.64435467235454,
+    "max_depth_m": 5.10621605388027,
+    "gage_datum_alt_va_m": 208.812384,
+    "riverbed_elev_m": 210.43809890833037,
+    "dem_elev_m_10m": 212.10000610351562,
+    "burn_value_m_10m": 1.6619071951852504,
+    "dem_elev_m_30m": 212.11917114257812,
+    "burn_value_m_30m": 1.6810722342477504,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.6573555555556,
+     41.3557027777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05472500",
+    "huc4": "0708",
+    "station_name": "North Skunk River near Sigourney, IA",
+    "lat": 41.3008444444444,
+    "lng": -92.2046222222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 1899.126,
+    "max_width_m": 577.8082545022036,
+    "max_depth_m": 4.021903527989723,
+    "gage_datum_alt_va_m": 198.330312,
+    "riverbed_elev_m": 198.92274262663415,
+    "dem_elev_m_10m": 200.2521209716797,
+    "burn_value_m_10m": 1.3293783450455408,
+    "dem_elev_m_30m": 200.7412567138672,
+    "burn_value_m_30m": 1.8185140872330408,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.2046222222222,
+     41.3008444444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05473400",
+    "huc4": "0708",
+    "station_name": "Cedar Creek near Oakland Mills, IA",
+    "lat": 40.9253027777778,
+    "lng": -91.6742166666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1381.734,
+    "max_width_m": 59.307677136168294,
+    "max_depth_m": 4.549509635523026,
+    "gage_datum_alt_va_m": 172.215048,
+    "riverbed_elev_m": 172.76175622365628,
+    "dem_elev_m_10m": 173.29049682617188,
+    "burn_value_m_10m": 0.5287406025155974,
+    "dem_elev_m_30m": 173.97967529296875,
+    "burn_value_m_30m": 1.2179190693124724,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.6742166666667,
+     40.9253027777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05517530",
+    "huc4": "0712",
+    "station_name": "KANKAKEE RIVER NR KOUTS, IND.",
+    "lat": 41.25390845474483,
+    "lng": -87.03388542916231,
+    "stream_order": 5,
+    "drain_area_sqkm": 3535.799,
+    "max_width_m": 74.59172054277244,
+    "max_depth_m": 2.8940457695092308,
+    "gage_datum_alt_va_m": 196.48932,
+    "riverbed_elev_m": 196.51499679514882,
+    "dem_elev_m_10m": 198.70626831054688,
+    "burn_value_m_10m": 2.191271515398057,
+    "dem_elev_m_30m": 198.83734130859375,
+    "burn_value_m_30m": 2.322344513444932,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.03388542916231,
+     41.25390845474483
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05518000",
+    "huc4": "0712",
+    "station_name": "KANKAKEE RIVER AT SHELBY, IN",
+    "lat": 41.1828134312722,
+    "lng": -87.3403095598096,
+    "stream_order": 5,
+    "drain_area_sqkm": 4587.032,
+    "max_width_m": 88.77617723376947,
+    "max_depth_m": 3.16674149634523,
+    "gage_datum_alt_va_m": 191.396112,
+    "riverbed_elev_m": 191.0846770304132,
+    "dem_elev_m_10m": 193.6511688232422,
+    "burn_value_m_10m": 2.566491792828998,
+    "dem_elev_m_30m": 193.687255859375,
+    "burn_value_m_30m": 2.6025788289618106,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.3403095598096,
+     41.1828134312722
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05524500",
+    "huc4": "0712",
+    "station_name": "IROQUOIS RIVER NEAR FORESMAN, IN",
+    "lat": 40.87057882918802,
+    "lng": -87.30667227440456,
+    "stream_order": 5,
+    "drain_area_sqkm": 1167.568,
+    "max_width_m": 130.45580576828615,
+    "max_depth_m": 3.0996609754277338,
+    "gage_datum_alt_va_m": 190.137288,
+    "riverbed_elev_m": 190.5266140988857,
+    "dem_elev_m_10m": 193.19046020507812,
+    "burn_value_m_10m": 2.6638461061924374,
+    "dem_elev_m_30m": 193.4319305419922,
+    "burn_value_m_30m": 2.9053164431065,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.30667227440456,
+     40.87057882918802
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05525000",
+    "huc4": "0712",
+    "station_name": "IROQUOIS RIVER AT IROQUOIS, IL",
+    "lat": 40.8230555555556,
+    "lng": -87.5816666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1746.274,
+    "max_width_m": 57.80027903816092,
+    "max_depth_m": 4.271615935056217,
+    "gage_datum_alt_va_m": 187.186824,
+    "riverbed_elev_m": 187.70964427646,
+    "dem_elev_m_10m": 189.73989868164062,
+    "burn_value_m_10m": 2.0302544051806137,
+    "dem_elev_m_30m": 190.27261352539062,
+    "burn_value_m_30m": 2.5629692489306137,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.5816666666667,
+     40.8230555555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05525500",
+    "huc4": "0712",
+    "station_name": "SUGAR CREEK AT MILFORD, IL",
+    "lat": 40.6299166666667,
+    "lng": -87.7235277777778,
+    "stream_order": 5,
+    "drain_area_sqkm": 1158.759,
+    "max_width_m": 123.67121830562301,
+    "max_depth_m": 4.5033175019799945,
+    "gage_datum_alt_va_m": 189.2046,
+    "riverbed_elev_m": 189.49305313584685,
+    "dem_elev_m_10m": 191.10398864746094,
+    "burn_value_m_10m": 1.6109355116140875,
+    "dem_elev_m_30m": 191.3293914794922,
+    "burn_value_m_30m": 1.8363383436453375,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.7235277777778,
+     40.6299166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05532500",
+    "huc4": "0712",
+    "station_name": "DES PLAINES RIVER AT RIVERSIDE, IL",
+    "lat": 41.8214916666667,
+    "lng": -87.8220361111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 1634.157,
+    "max_width_m": 88.38158798379068,
+    "max_depth_m": 3.025960229054057,
+    "gage_datum_alt_va_m": 181.167024,
+    "riverbed_elev_m": 181.1146034467838,
+    "dem_elev_m_10m": 182.00938415527344,
+    "burn_value_m_10m": 0.894780708489634,
+    "dem_elev_m_30m": 182.2543487548828,
+    "burn_value_m_30m": 1.139745308099009,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.8220361111111,
+     41.8214916666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05541710",
+    "huc4": "0712",
+    "station_name": "AUX SABLE CREEK NEAR MORRIS, IL",
+    "lat": 41.4169444444444,
+    "lng": -88.3477777777778,
+    "stream_order": 5,
+    "drain_area_sqkm": 445.1454,
+    "max_width_m": 49.919269730075804,
+    "max_depth_m": 3.990782867580091,
+    "gage_datum_alt_va_m": 156.779976,
+    "riverbed_elev_m": 156.4467931324199,
+    "dem_elev_m_10m": 157.97206115722656,
+    "burn_value_m_10m": 1.5252680248066497,
+    "dem_elev_m_30m": 157.97206115722656,
+    "burn_value_m_30m": 1.5252680248066497,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.3477777777778,
+     41.4169444444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05542000",
+    "huc4": "0712",
+    "station_name": "MAZON RIVER NEAR COAL CITY, IL",
+    "lat": 41.2861944444444,
+    "lng": -88.3598611111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 1165.55,
+    "max_width_m": 72.19537166907263,
+    "max_depth_m": 4.14517105251094,
+    "gage_datum_alt_va_m": 160.693608,
+    "riverbed_elev_m": 160.76561698532137,
+    "dem_elev_m_10m": 161.1572265625,
+    "burn_value_m_10m": 0.39160957717862743,
+    "dem_elev_m_30m": 161.2173309326172,
+    "burn_value_m_30m": 0.45171394729581493,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.3598611111111,
+     41.2861944444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05545750",
+    "huc4": "0712",
+    "station_name": "FOX RIVER NEAR NEW MUNSTER, WI",
+    "lat": 42.6108511625045,
+    "lng": -88.2259230488227,
+    "stream_order": 6,
+    "drain_area_sqkm": 2054.15,
+    "max_width_m": 58.96835732493893,
+    "max_depth_m": 4.026776274468475,
+    "gage_datum_alt_va_m": 224.21088,
+    "riverbed_elev_m": 225.19790107388926,
+    "dem_elev_m_10m": 226.7006378173828,
+    "burn_value_m_10m": 1.502736743493557,
+    "dem_elev_m_30m": 226.70213317871094,
+    "burn_value_m_30m": 1.504232104821682,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.2259230488227,
+     42.6108511625045
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05548280",
+    "huc4": "0712",
+    "station_name": "NIPPERSINK CREEK NEAR SPRING GROVE, IL",
+    "lat": 42.4437305555556,
+    "lng": -88.247425,
+    "stream_order": 5,
+    "drain_area_sqkm": 498.2472,
+    "max_width_m": 32.95514155152895,
+    "max_depth_m": 2.370352677598016,
+    "gage_datum_alt_va_m": 227.362512,
+    "riverbed_elev_m": 228.08007563677657,
+    "dem_elev_m_10m": 228.82728576660156,
+    "burn_value_m_10m": 0.7472101298249925,
+    "dem_elev_m_30m": 229.35919189453125,
+    "burn_value_m_30m": 1.27911625775468,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.247425,
+     42.4437305555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05551540",
+    "huc4": "0712",
+    "station_name": "FOX RIVER AT MONTGOMERY, IL",
+    "lat": 41.73355,
+    "lng": -88.3333361111111,
+    "stream_order": 6,
+    "drain_area_sqkm": 4445.551,
+    "max_width_m": 80.7107808448842,
+    "max_depth_m": 2.0958196208473745,
+    "gage_datum_alt_va_m": 183.85536,
+    "riverbed_elev_m": 186.04198037915265,
+    "dem_elev_m_10m": 186.17221069335938,
+    "burn_value_m_10m": 0.13023031420672737,
+    "dem_elev_m_30m": 186.17221069335938,
+    "burn_value_m_30m": 0.13023031420672737,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.3333361111111,
+     41.73355
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05554500",
+    "huc4": "0713",
+    "station_name": "VERMILION RIVER AT PONTIAC, IL",
+    "lat": 40.8778333333333,
+    "lng": -88.636,
+    "stream_order": 5,
+    "drain_area_sqkm": 1500.099,
+    "max_width_m": 59.236869450908856,
+    "max_depth_m": 3.858968423438982,
+    "gage_datum_alt_va_m": 188.677296,
+    "riverbed_elev_m": 188.82050117274179,
+    "dem_elev_m_10m": 189.6600341796875,
+    "burn_value_m_10m": 0.8395330069457145,
+    "dem_elev_m_30m": 190.0500946044922,
+    "burn_value_m_30m": 1.229593431750402,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.636,
+     40.8778333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05555300",
+    "huc4": "0713",
+    "station_name": "VERMILION RIVER NEAR LEONORE, IL",
+    "lat": 41.2083333333333,
+    "lng": -88.9305555555556,
+    "stream_order": 5,
+    "drain_area_sqkm": 3253.545,
+    "max_width_m": 83.69632495027393,
+    "max_depth_m": 7.5040072849759465,
+    "gage_datum_alt_va_m": 158.843472,
+    "riverbed_elev_m": 158.87312452722594,
+    "dem_elev_m_10m": 160.49893188476562,
+    "burn_value_m_10m": 1.625807357539685,
+    "dem_elev_m_30m": 160.49581909179688,
+    "burn_value_m_30m": 1.622694564570935,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.9305555555556,
+     41.2083333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05556500",
+    "huc4": "0713",
+    "station_name": "BIG BUREAU CREEK AT PRINCETON, IL",
+    "lat": 41.3674027777778,
+    "lng": -89.4979611111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 505.0946,
+    "max_width_m": 61.606378673679835,
+    "max_depth_m": 2.4280884391813395,
+    "gage_datum_alt_va_m": 169.19448,
+    "riverbed_elev_m": 169.31436443230965,
+    "dem_elev_m_10m": 169.77261352539062,
+    "burn_value_m_10m": 0.4582490930809797,
+    "dem_elev_m_30m": 170.22866821289062,
+    "burn_value_m_30m": 0.9143037805809797,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.4979611111111,
+     41.3674027777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05567500",
+    "huc4": "0713",
+    "station_name": "MACKINAW RIVER NEAR CONGERVILLE, IL",
+    "lat": 40.6235,
+    "lng": -89.2416666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1982.459,
+    "max_width_m": 119.00541489430738,
+    "max_depth_m": 3.96036556331115,
+    "gage_datum_alt_va_m": 184.943496,
+    "riverbed_elev_m": 184.7731080379009,
+    "dem_elev_m_10m": 185.7061309814453,
+    "burn_value_m_10m": 0.9330229435444153,
+    "dem_elev_m_30m": 185.91802978515625,
+    "burn_value_m_30m": 1.1449217472553528,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.2416666666667,
+     40.6235
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05568000",
+    "huc4": "0713",
+    "station_name": "MACKINAW RIVER NEAR GREEN VALLEY, IL",
+    "lat": 40.4546666666667,
+    "lng": -89.6061666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 2775.387,
+    "max_width_m": 110.71190813540471,
+    "max_depth_m": 3.105666577256677,
+    "gage_datum_alt_va_m": 145.289016,
+    "riverbed_elev_m": 148.8567553643017,
+    "dem_elev_m_10m": 150.11167907714844,
+    "burn_value_m_10m": 1.2549237128467325,
+    "dem_elev_m_30m": 150.2774658203125,
+    "burn_value_m_30m": 1.420710456010795,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.6061666666667,
+     40.4546666666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05570000",
+    "huc4": "0713",
+    "station_name": "SPOON RIVER AT SEVILLE, IL",
+    "lat": 40.4900805555556,
+    "lng": -90.3400944444444,
+    "stream_order": 6,
+    "drain_area_sqkm": 4241.168,
+    "max_width_m": 116.62188780830775,
+    "max_depth_m": 5.3101703065968,
+    "gage_datum_alt_va_m": 142.134336,
+    "riverbed_elev_m": 142.91250663666833,
+    "dem_elev_m_10m": 145.50997924804688,
+    "burn_value_m_10m": 2.5974726113785493,
+    "dem_elev_m_30m": 145.58128356933594,
+    "burn_value_m_30m": 2.668776932667612,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.3400944444444,
+     40.4900805555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05570910",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER AT FISHER, IL",
+    "lat": 40.3109972222222,
+    "lng": -88.3223611111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 561.0462,
+    "max_width_m": 82.41570230595639,
+    "max_depth_m": 3.4104332401139676,
+    "gage_datum_alt_va_m": 208.23936,
+    "riverbed_elev_m": 209.25044361761059,
+    "dem_elev_m_10m": 209.84817504882812,
+    "burn_value_m_10m": 0.5977314312175395,
+    "dem_elev_m_30m": 210.3505859375,
+    "burn_value_m_30m": 1.1001423198894145,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.3223611111111,
+     40.3109972222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05572000",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER AT MONTICELLO, IL",
+    "lat": 40.0311666666667,
+    "lng": -88.5891666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1426.457,
+    "max_width_m": 144.8584914322145,
+    "max_depth_m": 2.6020580794499044,
+    "gage_datum_alt_va_m": 190.66764,
+    "riverbed_elev_m": 191.25318398781067,
+    "dem_elev_m_10m": 193.15306091308594,
+    "burn_value_m_10m": 1.8998769252752652,
+    "dem_elev_m_30m": 193.2670440673828,
+    "burn_value_m_30m": 2.01386007957214,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.5891666666667,
+     40.0311666666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05573540",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER AT RT 48 AT DECATUR, IL",
+    "lat": 39.8311111111111,
+    "lng": -88.9763888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 2433.287,
+    "max_width_m": 106.33994002310926,
+    "max_depth_m": 2.474382835870455,
+    "gage_datum_alt_va_m": 177.750216,
+    "riverbed_elev_m": 178.0689453580713,
+    "dem_elev_m_10m": 178.37635803222656,
+    "burn_value_m_10m": 0.3074126741552732,
+    "dem_elev_m_30m": 178.52989196777344,
+    "burn_value_m_30m": 0.4609466097021482,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.9763888888889,
+     39.8311111111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05576000",
+    "huc4": "0713",
+    "station_name": "SOUTH FORK SANGAMON RIVER NR ROCHESTER, IL",
+    "lat": 39.7422222222222,
+    "lng": -89.5672777777778,
+    "stream_order": 5,
+    "drain_area_sqkm": 2243.371,
+    "max_width_m": 96.78388774897319,
+    "max_depth_m": 7.596002397131532,
+    "gage_datum_alt_va_m": 155.72232,
+    "riverbed_elev_m": 156.89933476027196,
+    "dem_elev_m_10m": 157.3993377685547,
+    "burn_value_m_10m": 0.5000030082827323,
+    "dem_elev_m_30m": 158.4202423095703,
+    "burn_value_m_30m": 1.5209075492983573,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.5672777777778,
+     39.7422222222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05576500",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER AT RIVERTON, IL",
+    "lat": 39.8431277777778,
+    "lng": -89.5474777777778,
+    "stream_order": 6,
+    "drain_area_sqkm": 6784.395,
+    "max_width_m": 287.0467636767278,
+    "max_depth_m": 5.517426719164878,
+    "gage_datum_alt_va_m": 154.8384,
+    "riverbed_elev_m": 154.841774986895,
+    "dem_elev_m_10m": 155.49034118652344,
+    "burn_value_m_10m": 0.6485661996284477,
+    "dem_elev_m_30m": 155.58055114746094,
+    "burn_value_m_30m": 0.7387761605659477,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.5474777777778,
+     39.8431277777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05578500",
+    "huc4": "0713",
+    "station_name": "SALT CREEK NEAR ROWELL, IL",
+    "lat": 40.1151694444444,
+    "lng": -89.049175,
+    "stream_order": 5,
+    "drain_area_sqkm": 862.6382,
+    "max_width_m": 102.48308313210778,
+    "max_depth_m": 2.8526634659806414,
+    "gage_datum_alt_va_m": 185.778648,
+    "riverbed_elev_m": 188.07414246264545,
+    "dem_elev_m_10m": 189.6741485595703,
+    "burn_value_m_10m": 1.600006096924858,
+    "dem_elev_m_30m": 190.54837036132812,
+    "burn_value_m_30m": 2.4742278986826705,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.049175,
+     40.1151694444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05583000",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER NEAR OAKFORD, IL",
+    "lat": 40.1233611111111,
+    "lng": -89.9839722222222,
+    "stream_order": 7,
+    "drain_area_sqkm": 13263.83,
+    "max_width_m": 343.29448955849676,
+    "max_depth_m": 5.088453341637092,
+    "gage_datum_alt_va_m": 137.922,
+    "riverbed_elev_m": 138.21160165417854,
+    "dem_elev_m_10m": 138.7979736328125,
+    "burn_value_m_10m": 0.586371978633963,
+    "dem_elev_m_30m": 138.79823303222656,
+    "burn_value_m_30m": 0.5866313780480255,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.9839722222222,
+     40.1233611111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05584500",
+    "huc4": "0713",
+    "station_name": "LA MOINE RIVER AT COLMAR, IL",
+    "lat": 40.3315277777778,
+    "lng": -90.8961944444444,
+    "stream_order": 5,
+    "drain_area_sqkm": 1695.671,
+    "max_width_m": 129.68659418232932,
+    "max_depth_m": 4.141820479790742,
+    "gage_datum_alt_va_m": 149.754336,
+    "riverbed_elev_m": 149.93416115203817,
+    "dem_elev_m_10m": 152.71749877929688,
+    "burn_value_m_10m": 2.783337627258703,
+    "dem_elev_m_30m": 153.4105224609375,
+    "burn_value_m_30m": 3.476361308899328,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.8961944444444,
+     40.3315277777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05585000",
+    "huc4": "0713",
+    "station_name": "LA MOINE RIVER AT RIPLEY, IL",
+    "lat": 40.0250833333333,
+    "lng": -90.6310555555555,
+    "stream_order": 5,
+    "drain_area_sqkm": 3354.608,
+    "max_width_m": 102.13814939739567,
+    "max_depth_m": 5.679992037949308,
+    "gage_datum_alt_va_m": 131.237736,
+    "riverbed_elev_m": 131.16769826392255,
+    "dem_elev_m_10m": 132.74176025390625,
+    "burn_value_m_10m": 1.5740619899837043,
+    "dem_elev_m_30m": 133.398681640625,
+    "burn_value_m_30m": 2.2309833767024543,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.6310555555555,
+     40.0250833333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05587000",
+    "huc4": "0713",
+    "station_name": "MACOUPIN CREEK NEAR KANE, IL",
+    "lat": 39.2339444444444,
+    "lng": -90.3944444444444,
+    "stream_order": 5,
+    "drain_area_sqkm": 2241.334,
+    "max_width_m": 173.71398932037815,
+    "max_depth_m": 5.336640592408141,
+    "gage_datum_alt_va_m": 129.93624,
+    "riverbed_elev_m": 130.47754763211333,
+    "dem_elev_m_10m": 131.92379760742188,
+    "burn_value_m_10m": 1.4462499753085467,
+    "dem_elev_m_30m": 131.92784118652344,
+    "burn_value_m_30m": 1.4502935544101092,
+    "vertical_datum_type": "Unknown"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.3944444444444,
+     39.2339444444444
+    ]
+   }
+  }
+ ]
+}

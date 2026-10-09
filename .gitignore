@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# figures are committed on purpose (the README embeds them) - do not ignore figures/

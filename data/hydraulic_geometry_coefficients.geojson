@@ -1,0 +1,3204 @@
+{
+ "type": "FeatureCollection",
+ "name": "hydraulic_geometry_coefficients",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05411850",
+    "monitoring_location_id": "USGS-05411850",
+    "huc4": "0706",
+    "station_name": "Turkey River near Eldorado, IA",
+    "lat": 43.0541879264244,
+    "lng": -91.8090982653687,
+    "stream_order": 5,
+    "drain_area_sqkm": 1664.225,
+    "coeff_a_width": 51.759020867789594,
+    "exp_b_width": 0.16322837714408506,
+    "coeff_c_depth": 0.1542215055974798,
+    "exp_f_depth": 0.4293185335395641,
+    "coeff_k_velocity": 0.20312741717014693,
+    "exp_m_velocity": 0.35829964487943994,
+    "exponent_sum": 0.9508465555630892,
+    "max_flow_cfs": 42100,
+    "n_channel_features": 196,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 196,
+    "r2_width": 0.5187,
+    "r2_depth": 0.9169,
+    "r2_velocity": 0.7861
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.8090982653687,
+     43.0541879264244
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412020",
+    "monitoring_location_id": "USGS-05412020",
+    "huc4": "0706",
+    "station_name": "Turkey River above French Hollow Cr at Elkader, IA",
+    "lat": 42.8434851705994,
+    "lng": -91.4012767402577,
+    "stream_order": 5,
+    "drain_area_sqkm": 2355.58,
+    "coeff_a_width": 33.80891731887954,
+    "exp_b_width": 0.20951123773828464,
+    "coeff_c_depth": 0.1330531256264543,
+    "exp_f_depth": 0.4496297165908765,
+    "coeff_k_velocity": 0.2812922035892033,
+    "exp_m_velocity": 0.3201720735599585,
+    "exponent_sum": 0.9793130278891198,
+    "max_flow_cfs": 36800,
+    "n_channel_features": 187,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 187,
+    "r2_width": 0.5551,
+    "r2_depth": 0.8997,
+    "r2_velocity": 0.7783
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.4012767402577,
+     42.8434851705994
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412400",
+    "monitoring_location_id": "USGS-05412400",
+    "huc4": "0706",
+    "station_name": "Volga River at Littleport, IA",
+    "lat": 42.7538753144323,
+    "lng": -91.3690252075114,
+    "stream_order": 5,
+    "drain_area_sqkm": 942.5907,
+    "coeff_a_width": 34.38136791041274,
+    "exp_b_width": 0.15965306303470797,
+    "coeff_c_depth": 0.1197346121306022,
+    "exp_f_depth": 0.48851690165499817,
+    "coeff_k_velocity": 0.34428151876087376,
+    "exp_m_velocity": 0.3106316980644863,
+    "exponent_sum": 0.9588016627541924,
+    "max_flow_cfs": 16100,
+    "n_channel_features": 222,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 221,
+    "r2_width": 0.5954,
+    "r2_depth": 0.9656,
+    "r2_velocity": 0.6893
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.3690252075114,
+     42.7538753144323
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05412500",
+    "monitoring_location_id": "USGS-05412500",
+    "huc4": "0706",
+    "station_name": "Turkey River at Garber, IA",
+    "lat": 42.7399884281497,
+    "lng": -91.2617990802579,
+    "stream_order": 6,
+    "drain_area_sqkm": 3858.214,
+    "coeff_a_width": 49.79230201386993,
+    "exp_b_width": 0.16607773444014745,
+    "coeff_c_depth": 0.16493557329186856,
+    "exp_f_depth": 0.4549431019242216,
+    "coeff_k_velocity": 0.22997400390390738,
+    "exp_m_velocity": 0.31794525895401055,
+    "exponent_sum": 0.9389660953183796,
+    "max_flow_cfs": 47500,
+    "n_channel_features": 1181,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 1145,
+    "r2_width": 0.2388,
+    "r2_depth": 0.0877,
+    "r2_velocity": 0.8561
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.2617990802579,
+     42.7399884281497
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05413500",
+    "monitoring_location_id": "USGS-05413500",
+    "huc4": "0706",
+    "station_name": "GRANT RIVER AT BURTON, WI",
+    "lat": 42.72027777777778,
+    "lng": -90.81916666666666,
+    "stream_order": 5,
+    "drain_area_sqkm": 695.3256,
+    "coeff_a_width": 7.751828406494885,
+    "exp_b_width": 0.32443583650705027,
+    "coeff_c_depth": 0.37700966559087806,
+    "exp_f_depth": 0.3984616747474188,
+    "coeff_k_velocity": 0.5901532806927959,
+    "exp_m_velocity": 0.23166367485508424,
+    "exponent_sum": 0.9545611861095533,
+    "max_flow_cfs": 17500,
+    "n_channel_features": 410,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 398,
+    "r2_width": 0.7769,
+    "r2_depth": 0.7863,
+    "r2_velocity": 0.0385
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.81916666666666,
+     42.72027777777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05416900",
+    "monitoring_location_id": "USGS-05416900",
+    "huc4": "0706",
+    "station_name": "Maquoketa River at Manchester, IA",
+    "lat": 42.4699878417593,
+    "lng": -91.4487146874303,
+    "stream_order": 5,
+    "drain_area_sqkm": 722.7054,
+    "coeff_a_width": 17.76969502215419,
+    "exp_b_width": 0.29070960714669797,
+    "coeff_c_depth": 0.14706349335897084,
+    "exp_f_depth": 0.44915817058771557,
+    "coeff_k_velocity": 0.45703815010136906,
+    "exp_m_velocity": 0.24092078764365402,
+    "exponent_sum": 0.9807885653780676,
+    "max_flow_cfs": 24400,
+    "n_channel_features": 199,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 199,
+    "r2_width": 0.9078,
+    "r2_depth": 0.9727,
+    "r2_velocity": 0.8864
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.4487146874303,
+     42.4699878417593
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05418400",
+    "monitoring_location_id": "USGS-05418400",
+    "huc4": "0706",
+    "station_name": "North Fork Maquoketa River near Fulton, IA",
+    "lat": 42.1643333333333,
+    "lng": -90.7293333333333,
+    "stream_order": 5,
+    "drain_area_sqkm": 1302.337,
+    "coeff_a_width": 34.13634573635393,
+    "exp_b_width": 0.19732265011947625,
+    "coeff_c_depth": 0.10056980961836574,
+    "exp_f_depth": 0.5118728176624204,
+    "coeff_k_velocity": 0.3914901365286922,
+    "exp_m_velocity": 0.25658484027976447,
+    "exponent_sum": 0.9657803080616612,
+    "max_flow_cfs": 19400,
+    "n_channel_features": 265,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 260,
+    "r2_width": 0.6737,
+    "r2_depth": 0.9222,
+    "r2_velocity": 0.6405
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.7293333333333,
+     42.1643333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05418500",
+    "monitoring_location_id": "USGS-05418500",
+    "huc4": "0706",
+    "station_name": "Maquoketa River near Maquoketa, IA",
+    "lat": 42.0833527777778,
+    "lng": -90.6329166666667,
+    "stream_order": 6,
+    "drain_area_sqkm": 4019.218,
+    "coeff_a_width": 18.995408180011143,
+    "exp_b_width": 0.3128427596762794,
+    "coeff_c_depth": 0.18407026007791288,
+    "exp_f_depth": 0.41681887416102825,
+    "coeff_k_velocity": 0.39140348613298914,
+    "exp_m_velocity": 0.24123190806206812,
+    "exponent_sum": 0.9708935418993758,
+    "max_flow_cfs": 47500,
+    "n_channel_features": 1155,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 1132,
+    "r2_width": 0.6219,
+    "r2_depth": 0.785,
+    "r2_velocity": 0.399
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.6329166666667,
+     42.0833527777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05419000",
+    "monitoring_location_id": "USGS-05419000",
+    "huc4": "0706",
+    "station_name": "APPLE RIVER NEAR HANOVER, IL",
+    "lat": 42.2583333333333,
+    "lng": -90.285,
+    "stream_order": 5,
+    "drain_area_sqkm": 638.6625,
+    "coeff_a_width": 20.856667105466038,
+    "exp_b_width": 0.24742949236152662,
+    "coeff_c_depth": 0.22886732167667717,
+    "exp_f_depth": 0.43719014042803267,
+    "coeff_k_velocity": 0.744890150232552,
+    "exp_m_velocity": 0.21067195909203582,
+    "exponent_sum": 0.8952915918815951,
+    "max_flow_cfs": 20000,
+    "n_channel_features": 1001,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 918,
+    "r2_width": 0.3832,
+    "r2_depth": 0.2013,
+    "r2_velocity": 0.0049
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.285,
+     42.2583333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05420680",
+    "monitoring_location_id": "USGS-05420680",
+    "huc4": "0708",
+    "station_name": "Wapsipinicon River near Tripoli, IA",
+    "lat": 42.8360916666667,
+    "lng": -92.2574,
+    "stream_order": 5,
+    "drain_area_sqkm": 896.9979,
+    "coeff_a_width": 9.945413579624233,
+    "exp_b_width": 0.4444412229459517,
+    "coeff_c_depth": 0.4699110133161314,
+    "exp_f_depth": 0.3129235665281193,
+    "coeff_k_velocity": 0.21000714417656477,
+    "exp_m_velocity": 0.2793701938498565,
+    "exponent_sum": 1.0367349833239274,
+    "max_flow_cfs": 19400,
+    "n_channel_features": 235,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 235,
+    "r2_width": 0.413,
+    "r2_depth": 0.6,
+    "r2_velocity": 0.6057
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.2574,
+     42.8360916666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05421000",
+    "monitoring_location_id": "USGS-05421000",
+    "huc4": "0708",
+    "station_name": "Wapsipinicon River at Independence, IA",
+    "lat": 42.4635979570031,
+    "lng": -91.895172206551,
+    "stream_order": 5,
+    "drain_area_sqkm": 2725.647,
+    "coeff_a_width": 64.08604004786265,
+    "exp_b_width": 0.14809690927620664,
+    "coeff_c_depth": 0.06740308041476822,
+    "exp_f_depth": 0.5352244331533657,
+    "coeff_k_velocity": 0.34564151024263134,
+    "exp_m_velocity": 0.27768702115500205,
+    "exponent_sum": 0.9610083635845743,
+    "max_flow_cfs": 30500,
+    "n_channel_features": 851,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 851,
+    "r2_width": 0.5645,
+    "r2_depth": 0.9479,
+    "r2_velocity": 0.1226
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.895172206551,
+     42.4635979570031
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05421740",
+    "monitoring_location_id": "USGS-05421740",
+    "huc4": "0708",
+    "station_name": "Wapsipinicon River near Anamosa, IA",
+    "lat": 42.0833611111111,
+    "lng": -91.2673888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 4094.893,
+    "coeff_a_width": 75.49350780309295,
+    "exp_b_width": 0.13862327050351037,
+    "coeff_c_depth": 0.09287599812362281,
+    "exp_f_depth": 0.5065877313313949,
+    "coeff_k_velocity": 0.1907319643264071,
+    "exp_m_velocity": 0.3224253682030794,
+    "exponent_sum": 0.9676363700379846,
+    "max_flow_cfs": 30700,
+    "n_channel_features": 192,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 192,
+    "r2_width": 0.7637,
+    "r2_depth": 0.9774,
+    "r2_velocity": 0.9366
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.2673888888889,
+     42.0833611111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05424057",
+    "monitoring_location_id": "USGS-05424057",
+    "huc4": "0709",
+    "station_name": "ROCK RIVER AT HORICON, WI",
+    "lat": 43.4502777777778,
+    "lng": -88.6322222222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 1142.88,
+    "coeff_a_width": 56.58849408862723,
+    "exp_b_width": 0.0843093874383137,
+    "coeff_c_depth": null,
+    "exp_f_depth": 0,
+    "coeff_k_velocity": 0.014894209424795173,
+    "exp_m_velocity": 0.7005301719171844,
+    "exponent_sum": 0.7848395593554981,
+    "max_flow_cfs": 3870,
+    "n_channel_features": 192,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 172,
+    "r2_width": 0.2104,
+    "r2_depth": null,
+    "r2_velocity": 0.9233
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.6322222222222,
+     43.4502777777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05425500",
+    "monitoring_location_id": "USGS-05425500",
+    "huc4": "0709",
+    "station_name": "ROCK RIVER AT WATERTOWN, WI",
+    "lat": 43.1880555555556,
+    "lng": -88.7261111111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 2098.532,
+    "coeff_a_width": 53.98851673376082,
+    "exp_b_width": 0.17041687483526857,
+    "coeff_c_depth": 0.12410620207928112,
+    "exp_f_depth": 0.4134929087450284,
+    "coeff_k_velocity": 0.15979523816159283,
+    "exp_m_velocity": 0.41044466493636744,
+    "exponent_sum": 0.9943544485166644,
+    "max_flow_cfs": 7610,
+    "n_channel_features": 364,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 337,
+    "r2_width": 0.7322,
+    "r2_depth": 0.8093,
+    "r2_velocity": 0.9148
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.7261111111111,
+     43.1880555555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05426000",
+    "monitoring_location_id": "USGS-05426000",
+    "huc4": "0709",
+    "station_name": "CRAWFISH RIVER AT MILFORD, WI",
+    "lat": 43.1,
+    "lng": -88.84944444444444,
+    "stream_order": 5,
+    "drain_area_sqkm": 2032.097,
+    "coeff_a_width": 101.67031856446415,
+    "exp_b_width": 0.0748967019644807,
+    "coeff_c_depth": 0.05467325280928649,
+    "exp_f_depth": 0.5840461480254392,
+    "coeff_k_velocity": 0.4233453945577858,
+    "exp_m_velocity": 0.2316350992727238,
+    "exponent_sum": 0.8905779492626438,
+    "max_flow_cfs": 7160,
+    "n_channel_features": 397,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 376,
+    "r2_width": 0.6666,
+    "r2_depth": 0.9562,
+    "r2_velocity": 0.0164
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.84944444444444,
+     43.1
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05430500",
+    "monitoring_location_id": "USGS-05430500",
+    "huc4": "0709",
+    "station_name": "ROCK RIVER AT AFTON, WI",
+    "lat": 42.61361111111111,
+    "lng": -89.07166666666666,
+    "stream_order": 6,
+    "drain_area_sqkm": 7923.77,
+    "coeff_a_width": 231.03349095916798,
+    "exp_b_width": 0.03041659166826244,
+    "coeff_c_depth": 0.04550897267593998,
+    "exp_f_depth": 0.5757477338358422,
+    "coeff_k_velocity": 0.10383609275003368,
+    "exp_m_velocity": 0.38469829127655575,
+    "exponent_sum": 0.9908626167806605,
+    "max_flow_cfs": 16200,
+    "n_channel_features": 296,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 289,
+    "r2_width": 0.0295,
+    "r2_depth": 0.9729,
+    "r2_velocity": 0.9499
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.07166666666666,
+     42.61361111111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05432500",
+    "monitoring_location_id": "USGS-05432500",
+    "huc4": "0709",
+    "station_name": "PECATONICA RIVER AT DARLINGTON, WI",
+    "lat": 42.6777777777778,
+    "lng": -90.1186111111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 705.6225,
+    "coeff_a_width": 5.544398533879183,
+    "exp_b_width": 0.4252309612227225,
+    "coeff_c_depth": 0.37410771473026816,
+    "exp_f_depth": 0.3841996778593087,
+    "coeff_k_velocity": 0.8195227909579884,
+    "exp_m_velocity": 0.1313949958792691,
+    "exponent_sum": 0.9408256349613002,
+    "max_flow_cfs": 10700,
+    "n_channel_features": 458,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 457,
+    "r2_width": 0.7115,
+    "r2_depth": 0.7204,
+    "r2_velocity": 0.1977
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1186111111111,
+     42.6777777777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05433000",
+    "monitoring_location_id": "USGS-05433000",
+    "huc4": "0709",
+    "station_name": "EAST BR PECATONICA RIVER NEAR BLANCHARDVILLE, WI",
+    "lat": 42.7855555555556,
+    "lng": -89.8611111111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 571.7655,
+    "coeff_a_width": 15.686267647612677,
+    "exp_b_width": 0.2441112104361594,
+    "coeff_c_depth": 0.4151507192244513,
+    "exp_f_depth": 0.39906004575739457,
+    "coeff_k_velocity": 0.21462832766430112,
+    "exp_m_velocity": 0.3116076051098854,
+    "exponent_sum": 0.9547788613034394,
+    "max_flow_cfs": 8700,
+    "n_channel_features": 412,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 403,
+    "r2_width": 0.8514,
+    "r2_depth": 0.8375,
+    "r2_velocity": 0.7408
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.8611111111111,
+     42.7855555555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05434500",
+    "monitoring_location_id": "USGS-05434500",
+    "huc4": "0709",
+    "station_name": "PECATONICA RIVER AT MARTINTOWN, WI",
+    "lat": 42.51,
+    "lng": -89.8013888888889,
+    "stream_order": 6,
+    "drain_area_sqkm": 2677.406,
+    "coeff_a_width": 26.026228426938722,
+    "exp_b_width": 0.23921991970053424,
+    "coeff_c_depth": 0.39990650029347335,
+    "exp_f_depth": 0.39376433604271777,
+    "coeff_k_velocity": 0.12451574334396226,
+    "exp_m_velocity": 0.3372005533263079,
+    "exponent_sum": 0.97018480906956,
+    "max_flow_cfs": 16300,
+    "n_channel_features": 428,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 417,
+    "r2_width": 0.6957,
+    "r2_depth": 0.894,
+    "r2_velocity": 0.8475
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.8013888888889,
+     42.51
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05435500",
+    "monitoring_location_id": "USGS-05435500",
+    "huc4": "0709",
+    "station_name": "PECATONICA RIVER AT FREEPORT, IL",
+    "lat": 42.3002777777778,
+    "lng": -89.6152777777778,
+    "stream_order": 6,
+    "drain_area_sqkm": 3435.407,
+    "coeff_a_width": 17.169128360635952,
+    "exp_b_width": 0.29846094328478845,
+    "coeff_c_depth": 0.7790294253186404,
+    "exp_f_depth": 0.30953871842908853,
+    "coeff_k_velocity": 0.09306846941474395,
+    "exp_m_velocity": 0.36949963141041486,
+    "exponent_sum": 0.9774992931242918,
+    "max_flow_cfs": 14800,
+    "n_channel_features": 453,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 324,
+    "r2_width": 0.1293,
+    "r2_depth": 0.6696,
+    "r2_velocity": 0.7313
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.6152777777778,
+     42.3002777777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05436500",
+    "monitoring_location_id": "USGS-05436500",
+    "huc4": "0709",
+    "station_name": "SUGAR RIVER NEAR BRODHEAD, WI",
+    "lat": 42.6123055555556,
+    "lng": -89.3979722222222,
+    "stream_order": 6,
+    "drain_area_sqkm": 1351.822,
+    "coeff_a_width": 80.77453512784706,
+    "exp_b_width": 0.11529547057955816,
+    "coeff_c_depth": 0.11629811079529155,
+    "exp_f_depth": 0.4917223003273972,
+    "coeff_k_velocity": 0.13615586264698296,
+    "exp_m_velocity": 0.368861733956466,
+    "exponent_sum": 0.9758795048634215,
+    "max_flow_cfs": 8060,
+    "n_channel_features": 404,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 395,
+    "r2_width": 0.1094,
+    "r2_depth": 0.8138,
+    "r2_velocity": 0.894
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.3979722222222,
+     42.6123055555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05437050",
+    "monitoring_location_id": "USGS-05437050",
+    "huc4": "0709",
+    "station_name": "PECATONICA RIVER NR SHIRLAND, ILL",
+    "lat": 42.4380555555556,
+    "lng": -89.175,
+    "stream_order": 7,
+    "drain_area_sqkm": 6625.879,
+    "coeff_a_width": 120.18465934352399,
+    "exp_b_width": 0.10009829685243488,
+    "coeff_c_depth": 0.2200466635008771,
+    "exp_f_depth": 0.43069950361035775,
+    "coeff_k_velocity": 0.04312081995530644,
+    "exp_m_velocity": 0.4555348647706929,
+    "exponent_sum": 0.9863326652334856,
+    "max_flow_cfs": 20200,
+    "n_channel_features": 152,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 152,
+    "r2_width": 0.8134,
+    "r2_depth": 0.8892,
+    "r2_velocity": 0.878
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.175,
+     42.4380555555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05438500",
+    "monitoring_location_id": "USGS-05438500",
+    "huc4": "0709",
+    "station_name": "KISHWAUKEE RIVER AT BELVIDERE, IL",
+    "lat": 42.2561320777989,
+    "lng": -88.8631564848154,
+    "stream_order": 5,
+    "drain_area_sqkm": 1404.788,
+    "coeff_a_width": 66.09152163997992,
+    "exp_b_width": 0.14802267041397843,
+    "coeff_c_depth": 0.17790069224288355,
+    "exp_f_depth": 0.4197378385616045,
+    "coeff_k_velocity": 0.23585253063329173,
+    "exp_m_velocity": 0.3268230228026101,
+    "exponent_sum": 0.894583531778193,
+    "max_flow_cfs": 10500,
+    "n_channel_features": 438,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 310,
+    "r2_width": 0.181,
+    "r2_depth": 0.5257,
+    "r2_velocity": 0.3829
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.8631564848154,
+     42.2561320777989
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05440000",
+    "monitoring_location_id": "USGS-05440000",
+    "huc4": "0709",
+    "station_name": "KISHWAUKEE RIVER NEAR PERRYVILLE, IL",
+    "lat": 42.1944444444444,
+    "lng": -88.9988888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 2847.03,
+    "coeff_a_width": 72.11857394964767,
+    "exp_b_width": 0.1330073570995446,
+    "coeff_c_depth": 0.08732586663981969,
+    "exp_f_depth": 0.5077909287500261,
+    "coeff_k_velocity": 0.17900187393530168,
+    "exp_m_velocity": 0.34595198421947415,
+    "exponent_sum": 0.9867502700690448,
+    "max_flow_cfs": 24500,
+    "n_channel_features": 450,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 322,
+    "r2_width": 0.6568,
+    "r2_depth": 0.9611,
+    "r2_velocity": 0.8957
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.9988888888889,
+     42.1944444444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05440700",
+    "monitoring_location_id": "USGS-05440700",
+    "huc4": "0709",
+    "station_name": "ROCK RIVER AT BYRON, IL",
+    "lat": 42.1221888888889,
+    "lng": -89.2553638888889,
+    "stream_order": 7,
+    "drain_area_sqkm": 19962.22,
+    "coeff_a_width": 282.4406164609499,
+    "exp_b_width": 0.08160058336185515,
+    "coeff_c_depth": 0.15624713389251726,
+    "exp_f_depth": 0.4221978804375751,
+    "coeff_k_velocity": 0.02900362219945252,
+    "exp_m_velocity": 0.4712931175465998,
+    "exponent_sum": 0.9750915813460301,
+    "max_flow_cfs": 38100,
+    "n_channel_features": 185,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 174,
+    "r2_width": 0.4434,
+    "r2_depth": 0.8707,
+    "r2_velocity": 0.9086
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.2553638888889,
+     42.1221888888889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05444000",
+    "monitoring_location_id": "USGS-05444000",
+    "huc4": "0709",
+    "station_name": "ELKHORN CREEK NEAR PENROSE, IL",
+    "lat": 41.90275,
+    "lng": -89.6963888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 376.3512,
+    "coeff_a_width": 15.341441267921812,
+    "exp_b_width": 0.2698159880068975,
+    "coeff_c_depth": 0.1436833973567736,
+    "exp_f_depth": 0.48367847606173664,
+    "coeff_k_velocity": 0.5009574020718722,
+    "exp_m_velocity": 0.2395506165414768,
+    "exponent_sum": 0.9930450806101109,
+    "max_flow_cfs": 5250,
+    "n_channel_features": 453,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 320,
+    "r2_width": 0.7861,
+    "r2_depth": 0.8,
+    "r2_velocity": 0.7172
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.6963888888889,
+     41.90275
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05447500",
+    "monitoring_location_id": "USGS-05447500",
+    "huc4": "0709",
+    "station_name": "GREEN RIVER NEAR GENESEO, IL",
+    "lat": 41.4889333333333,
+    "lng": -90.1580083333333,
+    "stream_order": 6,
+    "drain_area_sqkm": 2575.741,
+    "coeff_a_width": 75.50510625114576,
+    "exp_b_width": 0.07314746569678267,
+    "coeff_c_depth": 0.09149770601325169,
+    "exp_f_depth": 0.56062335391859,
+    "coeff_k_velocity": 0.1907604338460895,
+    "exp_m_velocity": 0.33144238330221576,
+    "exponent_sum": 0.9652132029175884,
+    "max_flow_cfs": 10400,
+    "n_channel_features": 452,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 330,
+    "r2_width": 0.2737,
+    "r2_depth": 0.9368,
+    "r2_velocity": 0.8828
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1580083333333,
+     41.4889333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05451500",
+    "monitoring_location_id": "USGS-05451500",
+    "huc4": "0708",
+    "station_name": "Iowa River at Marshalltown, IA",
+    "lat": 42.0658209608557,
+    "lng": -92.907699735576,
+    "stream_order": 5,
+    "drain_area_sqkm": 3973.971,
+    "coeff_a_width": 4.71090208534798,
+    "exp_b_width": 0.5418206696882372,
+    "coeff_c_depth": 0.19032084829113827,
+    "exp_f_depth": 0.40308921564509936,
+    "coeff_k_velocity": 0.6141408469118584,
+    "exp_m_velocity": 0.16565197632497225,
+    "exponent_sum": 1.1105618616583088,
+    "max_flow_cfs": 31600,
+    "n_channel_features": 1151,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 1137,
+    "r2_width": 0.2946,
+    "r2_depth": 0.4444,
+    "r2_velocity": 0.0253
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.907699735576,
+     42.0658209608557
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05451700",
+    "monitoring_location_id": "USGS-05451700",
+    "huc4": "0708",
+    "station_name": "Timber Creek near Marshalltown, IA",
+    "lat": 42.008875,
+    "lng": -92.8524194444444,
+    "stream_order": 5,
+    "drain_area_sqkm": 308.5146,
+    "coeff_a_width": 14.075606842302522,
+    "exp_b_width": 0.2758985709291701,
+    "coeff_c_depth": 0.27201002371850563,
+    "exp_f_depth": 0.4361662734840946,
+    "coeff_k_velocity": 0.48080655752893414,
+    "exp_m_velocity": 0.2109052985477191,
+    "exponent_sum": 0.9229701429609838,
+    "max_flow_cfs": 10400,
+    "n_channel_features": 908,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 897,
+    "r2_width": 0.1318,
+    "r2_depth": 0.773,
+    "r2_velocity": 0.5537
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.8524194444444,
+     42.008875
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05452000",
+    "monitoring_location_id": "USGS-05452000",
+    "huc4": "0708",
+    "station_name": "Salt Creek near Elberon, IA",
+    "lat": 41.9641611111111,
+    "lng": -92.3132416666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 516.6864,
+    "coeff_a_width": 7.340262085422636,
+    "exp_b_width": 0.42308525679149633,
+    "coeff_c_depth": 0.34482536633854993,
+    "exp_f_depth": 0.37184172021390893,
+    "coeff_k_velocity": 0.5765956906766776,
+    "exp_m_velocity": 0.18115027205789927,
+    "exponent_sum": 0.9760772490633045,
+    "max_flow_cfs": 17500,
+    "n_channel_features": 1002,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 1000,
+    "r2_width": 0.7607,
+    "r2_depth": 0.5404,
+    "r2_velocity": 0.4501
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.3132416666667,
+     41.9641611111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05453100",
+    "monitoring_location_id": "USGS-05453100",
+    "huc4": "0708",
+    "station_name": "Iowa River at Marengo, IA",
+    "lat": 41.8127256616889,
+    "lng": -92.0647920593456,
+    "stream_order": 6,
+    "drain_area_sqkm": 7237.921,
+    "coeff_a_width": 3.274289063291357,
+    "exp_b_width": 0.5777832013300028,
+    "coeff_c_depth": 0.4279915266106483,
+    "exp_f_depth": 0.309762344423029,
+    "coeff_k_velocity": 0.5243011547556617,
+    "exp_m_velocity": 0.16926746034988224,
+    "exponent_sum": 1.0568130061029142,
+    "max_flow_cfs": 46600,
+    "n_channel_features": 1114,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 1085,
+    "r2_width": 0.6259,
+    "r2_depth": 0.5106,
+    "r2_velocity": 0.0185
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.0647920593456,
+     41.8127256616889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05453520",
+    "monitoring_location_id": "USGS-05453520",
+    "huc4": "0708",
+    "station_name": "Iowa River below Coralville Dam nr Coralville, IA",
+    "lat": 41.7152944444444,
+    "lng": -91.5301666666667,
+    "stream_order": 6,
+    "drain_area_sqkm": 8080.012,
+    "coeff_a_width": 12.538234124613913,
+    "exp_b_width": 0.36590011377975556,
+    "coeff_c_depth": 2.666208817723278,
+    "exp_f_depth": 0.17994597165332393,
+    "coeff_k_velocity": 3.370961848471368,
+    "exp_m_velocity": 0.006678473234323565,
+    "exponent_sum": 0.5525245586674031,
+    "max_flow_cfs": 38300,
+    "n_channel_features": 981,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 944,
+    "r2_width": 0.0939,
+    "r2_depth": 0.0074,
+    "r2_velocity": 0.0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.5301666666667,
+     41.7152944444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05454500",
+    "monitoring_location_id": "USGS-05454500",
+    "huc4": "0708",
+    "station_name": "Iowa River at Iowa City, IA",
+    "lat": 41.6566833333333,
+    "lng": -91.541,
+    "stream_order": 6,
+    "drain_area_sqkm": 8478.728,
+    "coeff_a_width": 59.72152887481556,
+    "exp_b_width": 0.182440269202553,
+    "coeff_c_depth": 0.1359498508239914,
+    "exp_f_depth": 0.46542489101338086,
+    "coeff_k_velocity": null,
+    "exp_m_velocity": 0,
+    "exponent_sum": 0.6478651602159339,
+    "max_flow_cfs": 40800,
+    "n_channel_features": 1390,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 1381,
+    "r2_width": 0.6692,
+    "r2_depth": 0.9339,
+    "r2_velocity": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.541,
+     41.6566833333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05455500",
+    "monitoring_location_id": "USGS-05455500",
+    "huc4": "0708",
+    "station_name": "English River at Kalona, IA",
+    "lat": 41.4697387242571,
+    "lng": -91.7146129287325,
+    "stream_order": 5,
+    "drain_area_sqkm": 1486.906,
+    "coeff_a_width": 24.065906617541444,
+    "exp_b_width": 0.22590446575987708,
+    "coeff_c_depth": 0.3494616120603172,
+    "exp_f_depth": 0.371325051649273,
+    "coeff_k_velocity": 0.6727907525782905,
+    "exp_m_velocity": 0.19919723810597556,
+    "exponent_sum": 0.7964267555151257,
+    "max_flow_cfs": 25600,
+    "n_channel_features": 1148,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 1113,
+    "r2_width": 0.38,
+    "r2_depth": 0.5204,
+    "r2_velocity": 0.0171
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.7146129287325,
+     41.4697387242571
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05457000",
+    "monitoring_location_id": "USGS-05457000",
+    "huc4": "0708",
+    "station_name": "CEDAR RIVER NEAR AUSTIN, MN",
+    "lat": 43.63757,
+    "lng": -92.974797,
+    "stream_order": 5,
+    "drain_area_sqkm": 1035.219,
+    "coeff_a_width": 49.0503030913695,
+    "exp_b_width": 0.11305766907196914,
+    "coeff_c_depth": 0.09372689056690368,
+    "exp_f_depth": 0.5243506720675123,
+    "coeff_k_velocity": 0.3191440966951169,
+    "exp_m_velocity": 0.31708709099853083,
+    "exponent_sum": 0.9544954321380122,
+    "max_flow_cfs": 17900,
+    "n_channel_features": 798,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 797,
+    "r2_width": 0.5899,
+    "r2_depth": 0.9735,
+    "r2_velocity": 0.1119
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.974797,
+     43.63757
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05457700",
+    "monitoring_location_id": "USGS-05457700",
+    "huc4": "0708",
+    "station_name": "CEDAR RIVER AT CHARLES CITY, IA",
+    "lat": 43.0621944444444,
+    "lng": -92.6738833333333,
+    "stream_order": 5,
+    "drain_area_sqkm": 2783.164,
+    "coeff_a_width": 80.92947315798556,
+    "exp_b_width": 0.12231550032062427,
+    "coeff_c_depth": 0.05334380853397776,
+    "exp_f_depth": 0.5649581091702001,
+    "coeff_k_velocity": 0.31184900048569253,
+    "exp_m_velocity": 0.28034936692876566,
+    "exponent_sum": 0.9676229764195899,
+    "max_flow_cfs": 34500,
+    "n_channel_features": 656,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 650,
+    "r2_width": 0.6257,
+    "r2_depth": 0.9143,
+    "r2_velocity": 0.757
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.6738833333333,
+     43.0621944444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05458500",
+    "monitoring_location_id": "USGS-05458500",
+    "huc4": "0708",
+    "station_name": "Cedar River at Janesville, IA",
+    "lat": 42.6483166666667,
+    "lng": -92.4651861111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 4334.134,
+    "coeff_a_width": 65.23741476907185,
+    "exp_b_width": 0.1875808420457454,
+    "coeff_c_depth": 0.2429685371389971,
+    "exp_f_depth": 0.39296949584444235,
+    "coeff_k_velocity": 0.23375961461934602,
+    "exp_m_velocity": 0.30465224714677047,
+    "exponent_sum": 0.8852025850369583,
+    "max_flow_cfs": 51400,
+    "n_channel_features": 935,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 925,
+    "r2_width": 0.6566,
+    "r2_depth": 0.0179,
+    "r2_velocity": 0.7323
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.4651861111111,
+     42.6483166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05458900",
+    "monitoring_location_id": "USGS-05458900",
+    "huc4": "0708",
+    "station_name": "West Fork Cedar River at Finchford, IA",
+    "lat": 42.6294277777778,
+    "lng": -92.5435222222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 2205.097,
+    "coeff_a_width": 20.23217887982161,
+    "exp_b_width": 0.3415986568821455,
+    "coeff_c_depth": 0.1619927876365414,
+    "exp_f_depth": 0.42611227594153767,
+    "coeff_k_velocity": 0.4318881390635261,
+    "exp_m_velocity": 0.19894442965867973,
+    "exponent_sum": 0.966655362482363,
+    "max_flow_cfs": 24100,
+    "n_channel_features": 831,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 831,
+    "r2_width": 0.75,
+    "r2_depth": 0.8323,
+    "r2_velocity": 0.618
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.5435222222222,
+     42.6294277777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05462000",
+    "monitoring_location_id": "USGS-05462000",
+    "huc4": "0708",
+    "station_name": "Shell Rock River at Shell Rock, IA",
+    "lat": 42.711925,
+    "lng": -92.5829666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 4487.382,
+    "coeff_a_width": 68.71083908361602,
+    "exp_b_width": 0.1668519296548747,
+    "coeff_c_depth": 0.12266988205824488,
+    "exp_f_depth": 0.45652540453749985,
+    "coeff_k_velocity": 0.16520350324578306,
+    "exp_m_velocity": 0.3508570594980408,
+    "exponent_sum": 0.9742343936904153,
+    "max_flow_cfs": 50200,
+    "n_channel_features": 756,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 755,
+    "r2_width": 0.1678,
+    "r2_depth": 0.8659,
+    "r2_velocity": 0.7319
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.5829666666667,
+     42.711925
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05463000",
+    "monitoring_location_id": "USGS-05463000",
+    "huc4": "0708",
+    "station_name": "Beaver Creek at New Hartford, IA",
+    "lat": 42.572,
+    "lng": -92.6182777777778,
+    "stream_order": 5,
+    "drain_area_sqkm": 903.0069,
+    "coeff_a_width": 19.391364199295225,
+    "exp_b_width": 0.3126509940169657,
+    "coeff_c_depth": 0.2280394305870452,
+    "exp_f_depth": 0.48469664268874396,
+    "coeff_k_velocity": 0.6136043581102597,
+    "exp_m_velocity": 0.15120934029966218,
+    "exponent_sum": 0.9485569770053719,
+    "max_flow_cfs": 17900,
+    "n_channel_features": 810,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 802,
+    "r2_width": 0.6696,
+    "r2_depth": 0.021,
+    "r2_velocity": 0.0325
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.6182777777778,
+     42.572
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05463500",
+    "monitoring_location_id": "USGS-05463500",
+    "huc4": "0708",
+    "station_name": "Black Hawk Creek at Hudson, IA",
+    "lat": 42.4077638888889,
+    "lng": -92.4632472222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 777.0222,
+    "coeff_a_width": 10.32360004152118,
+    "exp_b_width": 0.3863628210398198,
+    "coeff_c_depth": 0.24853834454160886,
+    "exp_f_depth": 0.4238500871335457,
+    "coeff_k_velocity": 0.5210636590893649,
+    "exp_m_velocity": 0.16745027239043553,
+    "exponent_sum": 0.9776631805638011,
+    "max_flow_cfs": 11000,
+    "n_channel_features": 719,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 715,
+    "r2_width": 0.4108,
+    "r2_depth": 0.8691,
+    "r2_velocity": 0.5093
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.4632472222222,
+     42.4077638888889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05464220",
+    "monitoring_location_id": "USGS-05464220",
+    "huc4": "0708",
+    "station_name": "Wolf Creek near Dysart, IA",
+    "lat": 42.2515277777778,
+    "lng": -92.2988888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 775.195,
+    "coeff_a_width": 24.39938492256375,
+    "exp_b_width": 0.23738400857592265,
+    "coeff_c_depth": 0.1760955330650755,
+    "exp_f_depth": 0.42731232406749065,
+    "coeff_k_velocity": 0.34539051900871,
+    "exp_m_velocity": 0.29717634058478065,
+    "exponent_sum": 0.9618726732281939,
+    "max_flow_cfs": 15600,
+    "n_channel_features": 234,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 233,
+    "r2_width": 0.5246,
+    "r2_depth": 0.898,
+    "r2_velocity": 0.6946
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.2988888888889,
+     42.2515277777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05465000",
+    "monitoring_location_id": "USGS-05465000",
+    "huc4": "0708",
+    "station_name": "Cedar River near Conesville, IA",
+    "lat": 41.4091916666667,
+    "lng": -91.2904305555556,
+    "stream_order": 6,
+    "drain_area_sqkm": 20153.82,
+    "coeff_a_width": 9.425277764750879,
+    "exp_b_width": 0.4586787982801371,
+    "coeff_c_depth": 0.11140632504601951,
+    "exp_f_depth": 0.5694843975988239,
+    "coeff_k_velocity": 0.31595989087418574,
+    "exp_m_velocity": 0.23196286749870282,
+    "exponent_sum": 1.2601260633776639,
+    "max_flow_cfs": 124000,
+    "n_channel_features": 1099,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 1067,
+    "r2_width": 0.3809,
+    "r2_depth": 0.0025,
+    "r2_velocity": 0.6552
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.2904305555556,
+     41.4091916666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05466000",
+    "monitoring_location_id": "USGS-05466000",
+    "huc4": "0708",
+    "station_name": "EDWARDS RIVER NEAR ORION, IL",
+    "lat": 41.27224722222222,
+    "lng": -90.37749166666666,
+    "stream_order": 5,
+    "drain_area_sqkm": 401.4297,
+    "coeff_a_width": 26.74169492375559,
+    "exp_b_width": 0.18956027851176127,
+    "coeff_c_depth": 0.1114944032304231,
+    "exp_f_depth": 0.5297888811322105,
+    "coeff_k_velocity": 0.4049939707767582,
+    "exp_m_velocity": 0.2616471047457739,
+    "exponent_sum": 0.9809962643897456,
+    "max_flow_cfs": 4620,
+    "n_channel_features": 456,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 328,
+    "r2_width": 0.5671,
+    "r2_depth": 0.9204,
+    "r2_velocity": 0.9057
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.37749166666666,
+     41.27224722222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05466500",
+    "monitoring_location_id": "USGS-05466500",
+    "huc4": "0708",
+    "station_name": "EDWARDS RIVER NEAR NEW BOSTON, IL",
+    "lat": 41.1869773837497,
+    "lng": -90.9673663184279,
+    "stream_order": 5,
+    "drain_area_sqkm": 1151.567,
+    "coeff_a_width": 0.6293776003877535,
+    "exp_b_width": 0.7721205752396779,
+    "coeff_c_depth": 0.48938412634242595,
+    "exp_f_depth": 0.31660257434514527,
+    "coeff_k_velocity": null,
+    "exp_m_velocity": 0,
+    "exponent_sum": 1.088723149584823,
+    "max_flow_cfs": 7650,
+    "n_channel_features": 512,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 377,
+    "r2_width": 0.6758,
+    "r2_depth": 0.555,
+    "r2_velocity": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.9673663184279,
+     41.1869773837497
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05469000",
+    "monitoring_location_id": "USGS-05469000",
+    "huc4": "0708",
+    "station_name": "HENDERSON CREEK NEAR OQUAWKA, IL",
+    "lat": 41.001425,
+    "lng": -90.8543083333333,
+    "stream_order": 5,
+    "drain_area_sqkm": 1126.56,
+    "coeff_a_width": 5.2581447592771555,
+    "exp_b_width": 0.4266572382973385,
+    "coeff_c_depth": 0.5215071172907171,
+    "exp_f_depth": 0.3300011957502965,
+    "coeff_k_velocity": 0.31781663004200544,
+    "exp_m_velocity": 0.28195938769564355,
+    "exponent_sum": 1.0386178217432787,
+    "max_flow_cfs": 28900,
+    "n_channel_features": 470,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 337,
+    "r2_width": 0.658,
+    "r2_depth": 0.7684,
+    "r2_velocity": 0.7976
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.8543083333333,
+     41.001425
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471000",
+    "monitoring_location_id": "USGS-05471000",
+    "huc4": "0708",
+    "station_name": "South Skunk River below Squaw Creek near Ames, IA",
+    "lat": 42.0082222222222,
+    "lng": -93.5959722222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 1454.435,
+    "coeff_a_width": 0.07392748104701875,
+    "exp_b_width": 0.9999999999999999,
+    "coeff_c_depth": 0.24646848365348123,
+    "exp_f_depth": 0.382375835037564,
+    "coeff_k_velocity": 0.5114380108190432,
+    "exp_m_velocity": 0.215902132879732,
+    "exponent_sum": 1.5982779679172958,
+    "max_flow_cfs": 33300,
+    "n_channel_features": 740,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 720,
+    "r2_width": 0.6134,
+    "r2_depth": 0.2812,
+    "r2_velocity": 0.3271
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.5959722222222,
+     42.0082222222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471050",
+    "monitoring_location_id": "USGS-05471050",
+    "huc4": "0708",
+    "station_name": "South Skunk River at Colfax, IA",
+    "lat": 41.6818055555556,
+    "lng": -93.2468333333333,
+    "stream_order": 5,
+    "drain_area_sqkm": 2098.962,
+    "coeff_a_width": 7.946944090663507,
+    "exp_b_width": 0.4533874851372099,
+    "coeff_c_depth": 0.10694811347574387,
+    "exp_f_depth": 0.4822978797237956,
+    "coeff_k_velocity": 0.34975900819562705,
+    "exp_m_velocity": 0.25202957574880613,
+    "exponent_sum": 1.1877149406098115,
+    "max_flow_cfs": 23400,
+    "n_channel_features": 430,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 430,
+    "r2_width": 0.2743,
+    "r2_depth": 0.8678,
+    "r2_velocity": 0.8554
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.2468333333333,
+     41.6818055555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05471500",
+    "monitoring_location_id": "USGS-05471500",
+    "huc4": "0708",
+    "station_name": "South Skunk River near Oskaloosa, IA",
+    "lat": 41.3557027777778,
+    "lng": -92.6573555555556,
+    "stream_order": 6,
+    "drain_area_sqkm": 4246.927,
+    "coeff_a_width": 28.458459133236545,
+    "exp_b_width": 0.25062280324533603,
+    "coeff_c_depth": 0.17065665231520852,
+    "exp_f_depth": 0.4547636842292368,
+    "coeff_k_velocity": 0.2872254254092905,
+    "exp_m_velocity": 0.26499930150946466,
+    "exponent_sum": 0.9703857889840375,
+    "max_flow_cfs": 24000,
+    "n_channel_features": 801,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 800,
+    "r2_width": 0.6591,
+    "r2_depth": 0.824,
+    "r2_velocity": 0.7713
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.6573555555556,
+     41.3557027777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05472500",
+    "monitoring_location_id": "USGS-05472500",
+    "huc4": "0708",
+    "station_name": "North Skunk River near Sigourney, IA",
+    "lat": 41.3008444444444,
+    "lng": -92.2046222222222,
+    "stream_order": 5,
+    "drain_area_sqkm": 1899.126,
+    "coeff_a_width": 0.08858394266645611,
+    "exp_b_width": 0.9999999999987602,
+    "coeff_c_depth": 0.37957780425775506,
+    "exp_f_depth": 0.3558818990284804,
+    "coeff_k_velocity": 0.43699944393891305,
+    "exp_m_velocity": 0.21493099148251038,
+    "exponent_sum": 1.570812890509751,
+    "max_flow_cfs": 27500,
+    "n_channel_features": 819,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 817,
+    "r2_width": 0.5032,
+    "r2_depth": 0.7284,
+    "r2_velocity": 0.7741
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.2046222222222,
+     41.3008444444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05473400",
+    "monitoring_location_id": "USGS-05473400",
+    "huc4": "0708",
+    "station_name": "Cedar Creek near Oakland Mills, IA",
+    "lat": 40.9253027777778,
+    "lng": -91.6742166666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1381.734,
+    "coeff_a_width": 31.766939472382777,
+    "exp_b_width": 0.1901312961117933,
+    "coeff_c_depth": 0.19493660666384094,
+    "exp_f_depth": 0.4550993363134398,
+    "coeff_k_velocity": 0.24397055753323885,
+    "exp_m_velocity": 0.31537907339345866,
+    "exponent_sum": 0.9606097058186918,
+    "max_flow_cfs": 12600,
+    "n_channel_features": 467,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 461,
+    "r2_width": 0.5278,
+    "r2_depth": 0.9179,
+    "r2_velocity": 0.4934
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.6742166666667,
+     40.9253027777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05515500",
+    "monitoring_location_id": "USGS-05515500",
+    "huc4": "0712",
+    "station_name": "KANKAKEE RIVER AT DAVIS, IND.",
+    "lat": 41.3896388888889,
+    "lng": -86.7061666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1371.498,
+    "coeff_a_width": 14.279374116352809,
+    "exp_b_width": 0.25935248980621634,
+    "coeff_c_depth": null,
+    "exp_f_depth": 0,
+    "coeff_k_velocity": 0.24476340117206327,
+    "exp_m_velocity": 0.2908522242366465,
+    "exponent_sum": 0.5502047140428628,
+    "max_flow_cfs": 1880,
+    "n_channel_features": 374,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 264,
+    "r2_width": 0.45,
+    "r2_depth": null,
+    "r2_velocity": 0.5017
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.7061666666667,
+     41.3896388888889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05517500",
+    "monitoring_location_id": "USGS-05517500",
+    "huc4": "0712",
+    "station_name": "KANKAKEE RIVER AT DUNNS BRIDGE, IND.",
+    "lat": 41.22001987983983,
+    "lng": -86.96832768953219,
+    "stream_order": 5,
+    "drain_area_sqkm": 3467.25,
+    "coeff_a_width": 36.985012998772945,
+    "exp_b_width": 0.15495859502154252,
+    "coeff_c_depth": null,
+    "exp_f_depth": 0,
+    "coeff_k_velocity": null,
+    "exp_m_velocity": 0,
+    "exponent_sum": 0.15495859502154252,
+    "max_flow_cfs": 5950,
+    "n_channel_features": 642,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 604,
+    "r2_width": 0.5334,
+    "r2_depth": null,
+    "r2_velocity": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.96832768953219,
+     41.22001987983983
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05517530",
+    "monitoring_location_id": "USGS-05517530",
+    "huc4": "0712",
+    "station_name": "KANKAKEE RIVER NR KOUTS, IND.",
+    "lat": 41.25390845474483,
+    "lng": -87.03388542916231,
+    "stream_order": 5,
+    "drain_area_sqkm": 3535.799,
+    "coeff_a_width": 8.981550650891238,
+    "exp_b_width": 0.38184569890664466,
+    "coeff_c_depth": 0.12509913860368535,
+    "exp_f_depth": 0.5002075513096732,
+    "coeff_k_velocity": 0.8371872997439401,
+    "exp_m_velocity": 0.1348087095171283,
+    "exponent_sum": 1.016861959733446,
+    "max_flow_cfs": 5740,
+    "n_channel_features": 337,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 226,
+    "r2_width": 0.322,
+    "r2_depth": 0.7191,
+    "r2_velocity": 0.2735
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.03388542916231,
+     41.25390845474483
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05518000",
+    "monitoring_location_id": "USGS-05518000",
+    "huc4": "0712",
+    "station_name": "KANKAKEE RIVER AT SHELBY, IN",
+    "lat": 41.1828134312722,
+    "lng": -87.3403095598096,
+    "stream_order": 5,
+    "drain_area_sqkm": 4587.032,
+    "coeff_a_width": 5.608581768279721,
+    "exp_b_width": 0.4497422829644431,
+    "coeff_c_depth": 0.4285254580348299,
+    "exp_f_depth": 0.3630128846652696,
+    "coeff_k_velocity": 0.3489002645208116,
+    "exp_m_velocity": 0.2309699100038072,
+    "exponent_sum": 1.0437250776335198,
+    "max_flow_cfs": 6730,
+    "n_channel_features": 763,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 719,
+    "r2_width": 0.1379,
+    "r2_depth": 0.0258,
+    "r2_velocity": 0.5111
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.3403095598096,
+     41.1828134312722
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05524500",
+    "monitoring_location_id": "USGS-05524500",
+    "huc4": "0712",
+    "station_name": "IROQUOIS RIVER NEAR FORESMAN, IN",
+    "lat": 40.87057882918802,
+    "lng": -87.30667227440456,
+    "stream_order": 5,
+    "drain_area_sqkm": 1167.568,
+    "coeff_a_width": 0.145086309195312,
+    "exp_b_width": 0.9999999999925446,
+    "coeff_c_depth": 0.9803271280341045,
+    "exp_f_depth": 0.2927897187399438,
+    "coeff_k_velocity": 0.09820829019165846,
+    "exp_m_velocity": 0.35221553663380506,
+    "exponent_sum": 1.6450052553662935,
+    "max_flow_cfs": 5860,
+    "n_channel_features": 328,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 313,
+    "r2_width": 0.2717,
+    "r2_depth": 0.6606,
+    "r2_velocity": 0.8525
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.30667227440456,
+     40.87057882918802
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05525000",
+    "monitoring_location_id": "USGS-05525000",
+    "huc4": "0712",
+    "station_name": "IROQUOIS RIVER AT IROQUOIS, IL",
+    "lat": 40.8230555555556,
+    "lng": -87.5816666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1746.274,
+    "coeff_a_width": 28.00906549847158,
+    "exp_b_width": 0.21822834413833148,
+    "coeff_c_depth": 0.41722335046804204,
+    "exp_f_depth": 0.4009817295581449,
+    "coeff_k_velocity": 0.16549683532497012,
+    "exp_m_velocity": 0.29715624388967066,
+    "exponent_sum": 0.916366317586147,
+    "max_flow_cfs": 8750,
+    "n_channel_features": 449,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 314,
+    "r2_width": 0.1699,
+    "r2_depth": 0.9421,
+    "r2_velocity": 0.3978
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.5816666666667,
+     40.8230555555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05525500",
+    "monitoring_location_id": "USGS-05525500",
+    "huc4": "0712",
+    "station_name": "SUGAR CREEK AT MILFORD, IL",
+    "lat": 40.6299166666667,
+    "lng": -87.7235277777778,
+    "stream_order": 5,
+    "drain_area_sqkm": 1158.759,
+    "coeff_a_width": 3.5089848710106826,
+    "exp_b_width": 0.522055811268138,
+    "coeff_c_depth": 0.526549368068696,
+    "exp_f_depth": 0.3664330350951339,
+    "coeff_k_velocity": 0.5505762310532556,
+    "exp_m_velocity": 0.13693477353191252,
+    "exponent_sum": 1.0254236198951845,
+    "max_flow_cfs": 15700,
+    "n_channel_features": 462,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 331,
+    "r2_width": 0.489,
+    "r2_depth": 0.7728,
+    "r2_velocity": 0.1977
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.7235277777778,
+     40.6299166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05532500",
+    "monitoring_location_id": "USGS-05532500",
+    "huc4": "0712",
+    "station_name": "DES PLAINES RIVER AT RIVERSIDE, IL",
+    "lat": 41.8214916666667,
+    "lng": -87.8220361111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 1634.157,
+    "coeff_a_width": 31.811088912615283,
+    "exp_b_width": 0.23867772214904792,
+    "coeff_c_depth": 0.1463030199903765,
+    "exp_f_depth": 0.4554858838667199,
+    "coeff_k_velocity": 0.5794253468649561,
+    "exp_m_velocity": 0.1857470707224333,
+    "exponent_sum": 0.8799106767382012,
+    "max_flow_cfs": 10500,
+    "n_channel_features": 476,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 354,
+    "r2_width": 0.6138,
+    "r2_depth": 0.8075,
+    "r2_velocity": 0.0201
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.8220361111111,
+     41.8214916666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05541710",
+    "monitoring_location_id": "USGS-05541710",
+    "huc4": "0712",
+    "station_name": "AUX SABLE CREEK NEAR MORRIS, IL",
+    "lat": 41.4169444444444,
+    "lng": -88.3477777777778,
+    "stream_order": 5,
+    "drain_area_sqkm": 445.1454,
+    "coeff_a_width": 36.91900780322142,
+    "exp_b_width": 0.16945127342217817,
+    "coeff_c_depth": 0.42563431720868666,
+    "exp_f_depth": 0.3897114895177667,
+    "coeff_k_velocity": 0.14755509453403906,
+    "exp_m_velocity": 0.3447538950255626,
+    "exponent_sum": 0.9039166579655074,
+    "max_flow_cfs": 9340,
+    "n_channel_features": 157,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 150,
+    "r2_width": 0.6573,
+    "r2_depth": 0.8449,
+    "r2_velocity": 0.6513
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.3477777777778,
+     41.4169444444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05542000",
+    "monitoring_location_id": "USGS-05542000",
+    "huc4": "0712",
+    "station_name": "MAZON RIVER NEAR COAL CITY, IL",
+    "lat": 41.2861944444444,
+    "lng": -88.3598611111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 1165.55,
+    "coeff_a_width": 38.27130873569055,
+    "exp_b_width": 0.18635265113495247,
+    "coeff_c_depth": 0.1430129953788647,
+    "exp_f_depth": 0.46566959511565875,
+    "coeff_k_velocity": 0.18422314994977437,
+    "exp_m_velocity": 0.35677930565130017,
+    "exponent_sum": 1.0088015519019113,
+    "max_flow_cfs": 17700,
+    "n_channel_features": 423,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 296,
+    "r2_width": 0.7994,
+    "r2_depth": 0.9638,
+    "r2_velocity": 0.8828
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.3598611111111,
+     41.2861944444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05545750",
+    "monitoring_location_id": "USGS-05545750",
+    "huc4": "0712",
+    "station_name": "FOX RIVER NEAR NEW MUNSTER, WI",
+    "lat": 42.6108511625045,
+    "lng": -88.2259230488227,
+    "stream_order": 6,
+    "drain_area_sqkm": 2054.15,
+    "coeff_a_width": 108.06952780953682,
+    "exp_b_width": 0.06494100869427233,
+    "coeff_c_depth": 0.11534465492779473,
+    "exp_f_depth": 0.5287051772856092,
+    "coeff_k_velocity": 0.08927776724320052,
+    "exp_m_velocity": 0.39279279054678934,
+    "exponent_sum": 0.9864389765266708,
+    "max_flow_cfs": 6500,
+    "n_channel_features": 278,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 272,
+    "r2_width": 0.4327,
+    "r2_depth": 0.9657,
+    "r2_velocity": 0.9531
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.2259230488227,
+     42.6108511625045
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05548280",
+    "monitoring_location_id": "USGS-05548280",
+    "huc4": "0712",
+    "station_name": "NIPPERSINK CREEK NEAR SPRING GROVE, IL",
+    "lat": 42.4437305555556,
+    "lng": -88.247425,
+    "stream_order": 5,
+    "drain_area_sqkm": 498.2472,
+    "coeff_a_width": 27.405259587437282,
+    "exp_b_width": 0.17919847048181073,
+    "coeff_c_depth": 0.12245230591417834,
+    "exp_f_depth": 0.5419870731929457,
+    "coeff_k_velocity": 0.4215906842763693,
+    "exp_m_velocity": 0.227830881108324,
+    "exponent_sum": 0.9490164247830803,
+    "max_flow_cfs": 2820,
+    "n_channel_features": 453,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 334,
+    "r2_width": 0.6089,
+    "r2_depth": 0.935,
+    "r2_velocity": 0.529
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.247425,
+     42.4437305555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05550000",
+    "monitoring_location_id": "USGS-05550000",
+    "huc4": "0712",
+    "station_name": "FOX RIVER AT ALGONQUIN, IL",
+    "lat": 42.1663055555556,
+    "lng": -88.2903333333333,
+    "stream_order": 6,
+    "drain_area_sqkm": 3663.992,
+    "coeff_a_width": 44.224029233554276,
+    "exp_b_width": 0.2406039866420794,
+    "coeff_c_depth": 0.21522436474582418,
+    "exp_f_depth": 0.4262371335997719,
+    "coeff_k_velocity": null,
+    "exp_m_velocity": 0,
+    "exponent_sum": 0.6668411202418513,
+    "max_flow_cfs": 6600,
+    "n_channel_features": 308,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 0,
+    "n_fit_points": 180,
+    "r2_width": 0.5078,
+    "r2_depth": 0.5766,
+    "r2_velocity": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.2903333333333,
+     42.1663055555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05551540",
+    "monitoring_location_id": "USGS-05551540",
+    "huc4": "0712",
+    "station_name": "FOX RIVER AT MONTGOMERY, IL",
+    "lat": 41.73355,
+    "lng": -88.3333361111111,
+    "stream_order": 6,
+    "drain_area_sqkm": 4445.551,
+    "coeff_a_width": 143.95724667768366,
+    "exp_b_width": 0.0660287988803508,
+    "coeff_c_depth": 0.2450984803800125,
+    "exp_f_depth": 0.3612229353217203,
+    "coeff_k_velocity": 0.0515443124620067,
+    "exp_m_velocity": 0.5039066823154452,
+    "exponent_sum": 0.9311584165175163,
+    "max_flow_cfs": 11300,
+    "n_channel_features": 202,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 202,
+    "r2_width": 0.1985,
+    "r2_depth": 0.3148,
+    "r2_velocity": 0.9304
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.3333361111111,
+     41.73355
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05554500",
+    "monitoring_location_id": "USGS-05554500",
+    "huc4": "0713",
+    "station_name": "VERMILION RIVER AT PONTIAC, IL",
+    "lat": 40.8778333333333,
+    "lng": -88.636,
+    "stream_order": 5,
+    "drain_area_sqkm": 1500.099,
+    "coeff_a_width": 49.033901659966325,
+    "exp_b_width": 0.15035752702504987,
+    "coeff_c_depth": 0.1394844869370021,
+    "exp_f_depth": 0.4922238313201922,
+    "coeff_k_velocity": 0.15574987970703008,
+    "exp_m_velocity": 0.35777084064625686,
+    "exponent_sum": 1.000352198991499,
+    "max_flow_cfs": 12400,
+    "n_channel_features": 429,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 277,
+    "r2_width": 0.7033,
+    "r2_depth": 0.9551,
+    "r2_velocity": 0.8585
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.636,
+     40.8778333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05555300",
+    "monitoring_location_id": "USGS-05555300",
+    "huc4": "0713",
+    "station_name": "VERMILION RIVER NEAR LEONORE, IL",
+    "lat": 41.2083333333333,
+    "lng": -88.9305555555556,
+    "stream_order": 5,
+    "drain_area_sqkm": 3253.545,
+    "coeff_a_width": 28.343834563662938,
+    "exp_b_width": 0.21965299372499306,
+    "coeff_c_depth": 0.22060533073414582,
+    "exp_f_depth": 0.45605372324248,
+    "coeff_k_velocity": 0.5787051612259777,
+    "exp_m_velocity": 0.18738756762957623,
+    "exponent_sum": 0.8630942845970493,
+    "max_flow_cfs": 30900,
+    "n_channel_features": 452,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 306,
+    "r2_width": 0.8987,
+    "r2_depth": 0.7946,
+    "r2_velocity": 0.4355
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.9305555555556,
+     41.2083333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05556500",
+    "monitoring_location_id": "USGS-05556500",
+    "huc4": "0713",
+    "station_name": "BIG BUREAU CREEK AT PRINCETON, IL",
+    "lat": 41.3674027777778,
+    "lng": -89.4979611111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 505.0946,
+    "coeff_a_width": 18.076666741714302,
+    "exp_b_width": 0.27135475852860064,
+    "coeff_c_depth": 0.21585789865698657,
+    "exp_f_depth": 0.4055680907890555,
+    "coeff_k_velocity": 0.8261694285161796,
+    "exp_m_velocity": 0.19386394028637616,
+    "exponent_sum": 0.8707867896040322,
+    "max_flow_cfs": 8150,
+    "n_channel_features": 829,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 702,
+    "r2_width": 0.0278,
+    "r2_depth": 0.6862,
+    "r2_velocity": 0.0072
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.4979611111111,
+     41.3674027777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05563500",
+    "monitoring_location_id": "USGS-05563500",
+    "huc4": "0713",
+    "station_name": "KICKAPOO CREEK AT PEORIA, IL",
+    "lat": 40.6811488458349,
+    "lng": -89.6553783183071,
+    "stream_order": 5,
+    "drain_area_sqkm": 768.6756,
+    "coeff_a_width": 7.395515675901501,
+    "exp_b_width": 0.38630509814314734,
+    "coeff_c_depth": 0.2325182390900022,
+    "exp_f_depth": 0.405426724199489,
+    "coeff_k_velocity": 0.4642174096751294,
+    "exp_m_velocity": 0.23633339331335845,
+    "exponent_sum": 1.0280652156559948,
+    "max_flow_cfs": 11600,
+    "n_channel_features": 15,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 15,
+    "r2_width": 0.9683,
+    "r2_depth": 0.9889,
+    "r2_velocity": 0.9526
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.6553783183071,
+     40.6811488458349
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05567500",
+    "monitoring_location_id": "USGS-05567500",
+    "huc4": "0713",
+    "station_name": "MACKINAW RIVER NEAR CONGERVILLE, IL",
+    "lat": 40.6235,
+    "lng": -89.2416666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1982.459,
+    "coeff_a_width": 13.136976761756824,
+    "exp_b_width": 0.3463689710653056,
+    "coeff_c_depth": 0.19446885043208703,
+    "exp_f_depth": 0.4290931881746165,
+    "coeff_k_velocity": 0.5684086653946636,
+    "exp_m_velocity": 0.18873385223495115,
+    "exponent_sum": 0.9641960114748733,
+    "max_flow_cfs": 17900,
+    "n_channel_features": 426,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 301,
+    "r2_width": 0.6986,
+    "r2_depth": 0.8919,
+    "r2_velocity": 0.6937
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.2416666666667,
+     40.6235
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05568000",
+    "monitoring_location_id": "USGS-05568000",
+    "huc4": "0713",
+    "station_name": "MACKINAW RIVER NEAR GREEN VALLEY, IL",
+    "lat": 40.4546666666667,
+    "lng": -89.6061666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 2775.387,
+    "coeff_a_width": 24.25040181065068,
+    "exp_b_width": 0.28372103191450093,
+    "coeff_c_depth": 0.13408834148716456,
+    "exp_f_depth": 0.4539565840745204,
+    "coeff_k_velocity": 0.43098152563688485,
+    "exp_m_velocity": 0.2263517197044741,
+    "exponent_sum": 0.9640293356934954,
+    "max_flow_cfs": 16400,
+    "n_channel_features": 289,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 285,
+    "r2_width": 0.8409,
+    "r2_depth": 0.8913,
+    "r2_velocity": 0.7199
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.6061666666667,
+     40.4546666666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05570000",
+    "monitoring_location_id": "USGS-05570000",
+    "huc4": "0713",
+    "station_name": "SPOON RIVER AT SEVILLE, IL",
+    "lat": 40.4900805555556,
+    "lng": -90.3400944444444,
+    "stream_order": 6,
+    "drain_area_sqkm": 4241.168,
+    "coeff_a_width": 15.842078851873163,
+    "exp_b_width": 0.3148300346454097,
+    "coeff_c_depth": 0.33954244377722725,
+    "exp_f_depth": 0.3893278856627753,
+    "coeff_k_velocity": 0.2337479753890127,
+    "exp_m_velocity": 0.2770470907387041,
+    "exponent_sum": 0.9812050110468891,
+    "max_flow_cfs": 34300,
+    "n_channel_features": 468,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 325,
+    "r2_width": 0.6914,
+    "r2_depth": 0.897,
+    "r2_velocity": 0.8566
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.3400944444444,
+     40.4900805555556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05570910",
+    "monitoring_location_id": "USGS-05570910",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER AT FISHER, IL",
+    "lat": 40.3109972222222,
+    "lng": -88.3223611111111,
+    "stream_order": 5,
+    "drain_area_sqkm": 561.0462,
+    "coeff_a_width": 13.671237834815834,
+    "exp_b_width": 0.327557536105359,
+    "coeff_c_depth": 0.4071243104406618,
+    "exp_f_depth": 0.3636646279831165,
+    "coeff_k_velocity": 0.24801475150147134,
+    "exp_m_velocity": 0.2720644070309331,
+    "exponent_sum": 0.9632865711194085,
+    "max_flow_cfs": 10300,
+    "n_channel_features": 391,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 387,
+    "r2_width": 0.7819,
+    "r2_depth": 0.9265,
+    "r2_velocity": 0.8021
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.3223611111111,
+     40.3109972222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05572000",
+    "monitoring_location_id": "USGS-05572000",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER AT MONTICELLO, IL",
+    "lat": 40.0311666666667,
+    "lng": -88.5891666666667,
+    "stream_order": 5,
+    "drain_area_sqkm": 1426.457,
+    "coeff_a_width": 6.531256319702847,
+    "exp_b_width": 0.4796377807500562,
+    "coeff_c_depth": 1.184079728299559,
+    "exp_f_depth": 0.22100232582347792,
+    "coeff_k_velocity": 0.14110029551696388,
+    "exp_m_velocity": 0.3095550823796127,
+    "exponent_sum": 1.0101951889531469,
+    "max_flow_cfs": 13600,
+    "n_channel_features": 492,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 348,
+    "r2_width": 0.7875,
+    "r2_depth": 0.4954,
+    "r2_velocity": 0.7739
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.5891666666667,
+     40.0311666666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05573540",
+    "monitoring_location_id": "USGS-05573540",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER AT RT 48 AT DECATUR, IL",
+    "lat": 39.8311111111111,
+    "lng": -88.9763888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 2433.287,
+    "coeff_a_width": 11.697505816605139,
+    "exp_b_width": 0.39158735218007795,
+    "coeff_c_depth": 0.2289345111891089,
+    "exp_f_depth": 0.411544628270177,
+    "coeff_k_velocity": 0.4185870164981255,
+    "exp_m_velocity": 0.19527290429288208,
+    "exponent_sum": 0.998404884743137,
+    "max_flow_cfs": 20500,
+    "n_channel_features": 356,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 308,
+    "r2_width": 0.8461,
+    "r2_depth": 0.919,
+    "r2_velocity": 0.729
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.9763888888889,
+     39.8311111111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05574500",
+    "monitoring_location_id": "USGS-05574500",
+    "huc4": "0713",
+    "station_name": "FLAT BRANCH NEAR TAYLORVILLE, IL",
+    "lat": 39.5525,
+    "lng": -89.2538888888889,
+    "stream_order": 5,
+    "drain_area_sqkm": 718.1568,
+    "coeff_a_width": 3.747613141761149,
+    "exp_b_width": 0.6672054060164873,
+    "coeff_c_depth": 0.7838566421915586,
+    "exp_f_depth": 0.28591279189567087,
+    "coeff_k_velocity": 0.45999999988301915,
+    "exp_m_velocity": 1.7771222726344376e-18,
+    "exponent_sum": 0.9531181979121581,
+    "max_flow_cfs": 552,
+    "n_channel_features": 16,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 11,
+    "r2_width": 0.9061,
+    "r2_depth": 0.8203,
+    "r2_velocity": 0.0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.2538888888889,
+     39.5525
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05576000",
+    "monitoring_location_id": "USGS-05576000",
+    "huc4": "0713",
+    "station_name": "SOUTH FORK SANGAMON RIVER NR ROCHESTER, IL",
+    "lat": 39.7422222222222,
+    "lng": -89.5672777777778,
+    "stream_order": 5,
+    "drain_area_sqkm": 2243.371,
+    "coeff_a_width": 24.123312973505527,
+    "exp_b_width": 0.25544198905539695,
+    "coeff_c_depth": 0.4546084357013599,
+    "exp_f_depth": 0.3968338377820453,
+    "coeff_k_velocity": 0.159059466359227,
+    "exp_m_velocity": 0.29060416739454614,
+    "exponent_sum": 0.9428799942319883,
+    "max_flow_cfs": 24100,
+    "n_channel_features": 472,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 296,
+    "r2_width": 0.9319,
+    "r2_depth": 0.865,
+    "r2_velocity": 0.3225
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.5672777777778,
+     39.7422222222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05576500",
+    "monitoring_location_id": "USGS-05576500",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER AT RIVERTON, IL",
+    "lat": 39.8431277777778,
+    "lng": -89.5474777777778,
+    "stream_order": 6,
+    "drain_area_sqkm": 6784.395,
+    "coeff_a_width": 6.891383572729792,
+    "exp_b_width": 0.44840970059182345,
+    "coeff_c_depth": 0.4274142009649055,
+    "exp_f_depth": 0.34158775185698054,
+    "coeff_k_velocity": 0.41008278472422427,
+    "exp_m_velocity": 0.19952178884961896,
+    "exponent_sum": 0.9895192412984231,
+    "max_flow_cfs": 57900,
+    "n_channel_features": 276,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 266,
+    "r2_width": 0.7475,
+    "r2_depth": 0.8449,
+    "r2_velocity": 0.697
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.5474777777778,
+     39.8431277777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05578500",
+    "monitoring_location_id": "USGS-05578500",
+    "huc4": "0713",
+    "station_name": "SALT CREEK NEAR ROWELL, IL",
+    "lat": 40.1151694444444,
+    "lng": -89.049175,
+    "stream_order": 5,
+    "drain_area_sqkm": 862.6382,
+    "coeff_a_width": 4.375987643294023,
+    "exp_b_width": 0.4907778735805003,
+    "coeff_c_depth": 0.6095451710135011,
+    "exp_f_depth": 0.30875439201367333,
+    "coeff_k_velocity": 0.38101231326770096,
+    "exp_m_velocity": 0.22815168178434322,
+    "exponent_sum": 1.0276839473785169,
+    "max_flow_cfs": 7410,
+    "n_channel_features": 444,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 315,
+    "r2_width": 0.6641,
+    "r2_depth": 0.3682,
+    "r2_velocity": 0.385
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.049175,
+     40.1151694444444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05581500",
+    "monitoring_location_id": "USGS-05581500",
+    "huc4": "0713",
+    "station_name": "SUGAR CREEK NEAR HARTSBURG, IL",
+    "lat": 40.2222651391229,
+    "lng": -89.4034313393511,
+    "stream_order": 5,
+    "drain_area_sqkm": 861.4872,
+    "coeff_a_width": 12.927255497614508,
+    "exp_b_width": 0.3207615174398006,
+    "coeff_c_depth": 0.10960678050206868,
+    "exp_f_depth": 0.5135472298717221,
+    "coeff_k_velocity": 0.6446654895487253,
+    "exp_m_velocity": 0.20357802850884596,
+    "exponent_sum": 1.0378867758203687,
+    "max_flow_cfs": 807,
+    "n_channel_features": 28,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 28,
+    "r2_width": 0.8529,
+    "r2_depth": 0.8828,
+    "r2_velocity": 0.5464
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.4034313393511,
+     40.2222651391229
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05583000",
+    "monitoring_location_id": "USGS-05583000",
+    "huc4": "0713",
+    "station_name": "SANGAMON RIVER NEAR OAKFORD, IL",
+    "lat": 40.1233611111111,
+    "lng": -89.9839722222222,
+    "stream_order": 7,
+    "drain_area_sqkm": 13263.83,
+    "coeff_a_width": 20.265433338094944,
+    "exp_b_width": 0.36032144833296526,
+    "coeff_c_depth": 0.15207338661189654,
+    "exp_f_depth": 0.42136739005443413,
+    "coeff_k_velocity": 0.31948700788679035,
+    "exp_m_velocity": 0.2314897271028373,
+    "exponent_sum": 1.0131785654902368,
+    "max_flow_cfs": 69700,
+    "n_channel_features": 500,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 491,
+    "r2_width": 0.574,
+    "r2_depth": 0.8454,
+    "r2_velocity": 0.8264
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.9839722222222,
+     40.1233611111111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05584500",
+    "monitoring_location_id": "USGS-05584500",
+    "huc4": "0713",
+    "station_name": "LA MOINE RIVER AT COLMAR, IL",
+    "lat": 40.3315277777778,
+    "lng": -90.8961944444444,
+    "stream_order": 5,
+    "drain_area_sqkm": 1695.671,
+    "coeff_a_width": 5.324993948730415,
+    "exp_b_width": 0.44257409358560656,
+    "coeff_c_depth": 0.8357514547987686,
+    "exp_f_depth": 0.2817261129342896,
+    "coeff_k_velocity": 0.21098793559339643,
+    "exp_m_velocity": 0.30014724571603013,
+    "exponent_sum": 1.0244474522359264,
+    "max_flow_cfs": 37200,
+    "n_channel_features": 450,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 296,
+    "r2_width": 0.832,
+    "r2_depth": 0.7397,
+    "r2_velocity": 0.832
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.8961944444444,
+     40.3315277777778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05585000",
+    "monitoring_location_id": "USGS-05585000",
+    "huc4": "0713",
+    "station_name": "LA MOINE RIVER AT RIPLEY, IL",
+    "lat": 40.0250833333333,
+    "lng": -90.6310555555555,
+    "stream_order": 5,
+    "drain_area_sqkm": 3354.608,
+    "coeff_a_width": 12.53588558117046,
+    "exp_b_width": 0.32249857052687947,
+    "coeff_c_depth": 1.7063303402057441,
+    "exp_f_depth": 0.2346434857478132,
+    "coeff_k_velocity": 0.17395012694269466,
+    "exp_m_velocity": 0.31271645910651447,
+    "exponent_sum": 0.8698585153812072,
+    "max_flow_cfs": 26600,
+    "n_channel_features": 526,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 325,
+    "r2_width": 0.775,
+    "r2_depth": 0.0176,
+    "r2_velocity": 0.7237
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.6310555555555,
+     40.0250833333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "site_id": "05587000",
+    "monitoring_location_id": "USGS-05587000",
+    "huc4": "0713",
+    "station_name": "MACOUPIN CREEK NEAR KANE, IL",
+    "lat": 39.2339444444444,
+    "lng": -90.3944444444444,
+    "stream_order": 5,
+    "drain_area_sqkm": 2241.334,
+    "coeff_a_width": 9.931160185735319,
+    "exp_b_width": 0.3820011928234234,
+    "coeff_c_depth": 0.5225310945682992,
+    "exp_f_depth": 0.3312480394456375,
+    "coeff_k_velocity": 0.35962669133439407,
+    "exp_m_velocity": 0.23118584754888463,
+    "exponent_sum": 0.9444350798179455,
+    "max_flow_cfs": 40200,
+    "n_channel_features": 546,
+    "width_unit": "ft",
+    "depth_unit": "ft",
+    "velocity_unit": "ft/s",
+    "flow_unit": "ft^3/s",
+    "exponent_sum_in_range": 1,
+    "n_fit_points": 417,
+    "r2_width": 0.8044,
+    "r2_depth": 0.742,
+    "r2_velocity": 0.7274
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.3944444444444,
+     39.2339444444444
+    ]
+   }
+  }
+ ]
+}
