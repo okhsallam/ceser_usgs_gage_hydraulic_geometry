@@ -165,10 +165,12 @@ package ships the numbers you need to screen on: `r2_width`, `r2_depth`, `r2_vel
 
 ![Good versus poor fit](figures/gage_fits_good_vs_poor.png)
 
-*Same pipeline, two gages. Kickapoo Creek (top) is a clean power law. The Iowa River below
-Coralville Dam (bottom) is dam-regulated: the measurements split into separate branches, no
-power law can describe them, and R² collapses to ~0 — but the row still exists in the file
-and still carries coefficients.*
+*Same pipeline, two well-sampled gages. The Wapsipinicon River (top, n = 192) is a clean
+power law — depth and velocity are tight, and width is the loosest of the three, as it
+usually is. The Iowa River below Coralville Dam (bottom, n = 944) is dam-regulated: the
+measurements split into separate branches, no power law can describe them, and R² collapses
+to ~0 — but the row still exists in the file and still carries coefficients that look
+perfectly ordinary until you check `r2_*`.*
 
 A reasonable screen:
 
