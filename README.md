@@ -18,7 +18,7 @@ exactly once; a `huc4` column is kept for provenance only.
 | Gages with USGS channel measurements | 86 (44,251 measurements) |
 | States | IL (41), IA (30), WI (11), IN (5), MN (1) |
 | Stream order (NHDPlus) | 5 (67), 6 (18), 7 (3) |
-| Drainage area | 308 – 20,154 km² |
+| Drainage area | 309 – 20,154 km² |
 | Bounding box | −93.596, 39.234 → −86.701, 43.636 (WGS84) |
 | Total size | ~36 MB |
 
@@ -84,7 +84,8 @@ data/
 └── streams.geojson                              6,285  order-5+ NHDPlus flowlines (for plotting)
 ```
 
-Every column, type and unit is documented in **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)**.
+Every column, type and unit is documented in **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)**;
+the equations behind every derived value are in **[METHODS.md](METHODS.md)**.
 
 The `.geojson` twins carry identical attributes to their `.csv` counterparts as WGS84
 points, so they drop straight into QGIS or ArcGIS with no conversion.
@@ -102,7 +103,9 @@ v = k · Q^m     (velocity)
 ```
 
 Fit by bounded non-linear least squares (`scipy.optimize.curve_fit`) on **untransformed**
-values, with coefficients ≥ 1e-3 and exponents constrained to [0, 1].
+values, with coefficients ≥ 1e-3 and exponents constrained to [0, 1]. Note that this is
+least squares in linear space, not the usual log-space regression, so the fits track high
+flows more closely than low ones — see **[METHODS.md](METHODS.md)** for the full math.
 
 > **Units are imperial**, inherited from the USGS source: `Q` in ft³/s, `w` and `d` in ft,
 > `v` in ft/s. The unit columns state this explicitly. The bathymetry file is in **metres** —
@@ -124,12 +127,18 @@ DEM burn depth.*
 | `hydraulic_geometry_coefficients` | `channel_features/` | `channel_flow`, `channel_width`, `channel_area`, `channel_velocity` |
 | `channel_bathymetry` | `field_measurements/` | `MeanGageHeight`, `Discharge` (stage–discharge rating) |
 
-`channel_bathymetry` derives a zero-flow riverbed stage from the stage–discharge curve,
-converts it to an absolute elevation using the gage datum (`alt_va`), and differences it
-against the DEM to give `burn_value_m` — how far the DEM must be lowered to seat the
-channel. It is provided at both **10 m and 30 m** DEM resolution; only `dem_elev_m` and
-`burn_value_m` differ between resolutions (69 of 73 gages), so the shared columns are
-stored once rather than duplicated.
+`channel_bathymetry` reconstructs the riverbed measurement by measurement: for each
+stage–discharge pair it takes the water-surface elevation (gage datum + stage) and
+subtracts the water depth predicted by the fitted depth law, then keeps the minimum over
+all measurements. Differencing that bed against the DEM gives `burn_value_m` — how far the
+DEM must be lowered to seat the channel. Because the depth comes from the fit,
+`riverbed_elev_m` inherits the depth fit's error directly: where `r2_depth` is poor, the
+bed elevation is poor. Provided at both **10 m and 30 m** DEM resolution; only
+`dem_elev_m` and `burn_value_m` differ between resolutions (69 of 73 gages), so the shared
+columns are stored once rather than duplicated.
+
+The full derivation, including every equation and the places this departs from textbook
+practice, is in **[METHODS.md](METHODS.md)**.
 
 Upstream inputs: USGS NWIS field measurements and channel measurements, GAGES-II station
 metadata, NHDPlus stream order, and 10 m / 30 m DEMs (EPSG:5070).
@@ -176,6 +185,7 @@ A reasonable screen:
 
 ```python
 usable = coef[
+    (coef.n_relations_fitted == 3) &        # all three fits actually converged
     (coef.r2_width    >= 0.7) &
     (coef.r2_depth    >= 0.7) &
     (coef.r2_velocity >= 0.7) &
@@ -185,6 +195,12 @@ usable = coef[
 
 That strict screen leaves **14 of 84 gages**. Loosen it per relation if you only need one
 of the three — e.g. depth alone (`r2_depth >= 0.7`) keeps 58.
+
+**Do not screen on `exponent_sum_in_range` alone.** When a fit fails, the coefficient is
+stored as null but its exponent keeps the value 0.0, and `exponent_sum` still adds that
+zero in. Gage 05466500 has a failed velocity fit yet sums to 1.089, inside the valid band —
+the flag would wave it through. `n_relations_fitted` (3 = all converged; 78 gages, 5 have
+2, 1 has 1) is the column that catches it.
 
 Median R² across the domain: **0.62** (width), **0.83** (depth), **0.71** (velocity). Only
 25 of 84 gages reach R² ≥ 0.7 on width — width is the weakest of the three, because
@@ -200,14 +216,22 @@ Also check `n_fit_points`: a high R² on 15 measurements is not the same as a hi
 1. **Fit quality varies a lot** — see the section above. Filter, don't assume.
 2. **Width fits are the weakest** of the three relations.
 3. **Some coefficients are null** where the fit did not converge: `coeff_c_depth`
-   (3 gages), `coeff_k_velocity` (4 gages).
+   (3 gages), `coeff_k_velocity` (4 gages) — 6 gages affected in total. The matching
+   exponent is stored as **0.0, not null**, and still enters `exponent_sum`, so a failed
+   relation can leave a gage looking valid. Screen on `n_relations_fitted == 3`.
 4. **Vertical datum is unverified.** `datum_type` is `Unknown` for all 84 gages in the
    coefficient source, though the field measurements report NAVD88 for 8,725 of 9,183
    rows. Treat `riverbed_elev_m` and `burn_value_m` as NAVD88-assumed, not datum-verified.
 5. **`burn_value_m` is positive-only by construction.** The upstream step kept a gage only
    where the DEM sat above the computed riverbed. Gages needing no burn were dropped, which
    is most of the 84 → 73 attrition. The 73 are a biased subset, not a census.
-6. **The Manning-inversion variant is not included.** The upstream tree also contains
+6. **Least squares was done in linear space, not log space** (§1.3 of
+   [METHODS.md](METHODS.md)), which weights high flows far more than low ones. Fine for
+   flood work; think twice for low-flow applications.
+7. **`riverbed_elev_m` inherits the depth fit's error** — it is built from the fitted
+   depth law, not from measured depths, and is taken as a minimum over measurements, so a
+   single outlier can set it.
+8. **The Manning-inversion variant is not included.** The upstream tree also contains
    `bathymetry_parameter_summary_manning_method_{10,30}.geojson`, but those files are
    identical in content to the curve-fit outputs for all 73 gages — they carry the
    curve-fit schema, not the Manning-inversion schema the code produces. They are stale

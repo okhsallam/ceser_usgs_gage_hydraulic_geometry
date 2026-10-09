@@ -45,24 +45,32 @@ Power-law fits `w = a·Q^b`, `d = c·Q^f`, `v = k·Q^m`. **Imperial units.**
 | `stream_order` | int | — | NHDPlus Strahler stream order |
 | `drain_area_sqkm` | float | km² | Upstream drainage area |
 | `coeff_a_width` | float | ft / (ft³/s)^b | Width coefficient `a` |
-| `exp_b_width` | float | — | Width exponent `b`, bounded [0, 1] |
+| `exp_b_width` | float | — | Width exponent `b`, bounded [0, 1]. **0.0 exactly means the fit failed** |
 | `coeff_c_depth` | float | ft / (ft³/s)^f | Depth coefficient `c`. **Null for 3 gages** |
-| `exp_f_depth` | float | — | Depth exponent `f`, bounded [0, 1] |
+| `exp_f_depth` | float | — | Depth exponent `f`, bounded [0, 1]. **0.0 exactly means the fit failed** |
 | `coeff_k_velocity` | float | (ft/s) / (ft³/s)^m | Velocity coefficient `k`. **Null for 4 gages** |
-| `exp_m_velocity` | float | — | Velocity exponent `m`, bounded [0, 1] |
-| `exponent_sum` | float | — | `b + f + m`. Theory expects ≈ 1; observed 0.155–1.645 |
+| `exp_m_velocity` | float | — | Velocity exponent `m`, bounded [0, 1]. **0.0 exactly means the fit failed** |
+| `exponent_sum` | float | — | `b + f + m`. Theory expects ≈ 1; observed 0.155–1.645. Includes the 0.0 of any failed fit |
 | `max_flow_cfs` | float | ft³/s | Largest discharge in the fitting sample |
 | `n_channel_features` | int | — | Rows in the gage's channel-features file |
 | `n_fit_points` | int | — | Rows actually usable in the fit (finite, `Q > 0`) |
 | `r2_width` | float | — | R² of `w = a·Q^b` vs observations. Median 0.62 |
 | `r2_depth` | float | — | R² of `d = c·Q^f` vs observations. Median 0.83 |
 | `r2_velocity` | float | — | R² of `v = k·Q^m` vs observations. Median 0.71 |
-| `exponent_sum_in_range` | 0/1 | — | 1 if `exponent_sum` ∈ [0.85, 1.15]. True for 72 of 84 |
+| `n_relations_fitted` | int | — | How many of the three fits converged (3 = all; 78 gages, 5 have 2, 1 has 1). **Screen on this** — see the warning below |
+| `exponent_sum_in_range` | 0/1 | — | 1 if `exponent_sum` ∈ [0.85, 1.15]. True for 72 of 84. Not sufficient on its own |
 | `width_unit`, `depth_unit`, `velocity_unit`, `flow_unit` | string | — | Unit declarations: `ft`, `ft`, `ft/s`, `ft^3/s` |
 
-R² is recomputed by `build_package.py` against the same observations the fit used; it is a
-QC aid added here, not an upstream output. Null where the coefficient is null or
-fewer than 3 usable points exist.
+R² is recomputed by `build_package.py` against the same observations the fit used, in
+linear space; it is a QC aid added here, not an upstream output. Null where the
+coefficient is null or fewer than 3 usable points exist.
+
+> **Failed fits are not null throughout.** When a relation fails to converge its
+> coefficient is null but its exponent is stored as exactly 0.0, and `exponent_sum` still
+> adds that zero in. Gage 05466500 has a failed velocity fit yet `exponent_sum` = 1.089,
+> so `exponent_sum_in_range` = 1. Always pair it with `n_relations_fitted == 3`.
+
+Full derivation of every column here: **[METHODS.md](METHODS.md)**.
 
 ---
 
@@ -78,18 +86,23 @@ Riverbed elevation and DEM burn depth, at two DEM resolutions. **Metric units.**
 | `lat`, `lng` | float | deg | Gage location, WGS84 |
 | `stream_order` | int | — | NHDPlus Strahler stream order |
 | `drain_area_sqkm` | float | km² | Upstream drainage area |
-| `max_width_m` | float | m | Channel width at max observed flow, from the width power law |
-| `max_depth_m` | float | m | Channel depth at max observed flow, from the depth power law |
-| `gage_datum_alt_va_m` | float | m | Gage datum elevation, converted from `alt_va` |
-| `riverbed_elev_m` | float | m | Absolute zero-flow riverbed elevation |
+| `max_width_m` | float | m | `a·Q_max^b` at the largest measured discharge — an extrapolation from the fit, not a measured maximum |
+| `max_depth_m` | float | m | `c·Q_max^f` at the largest measured discharge — likewise extrapolated |
+| `gage_datum_alt_va_m` | float | m | Gage datum elevation, `alt_va` × 0.3048 |
+| `riverbed_elev_m` | float | m | `min` over measurements of (gage datum + stage − fitted depth). Inherits the depth fit's error |
 | `dem_elev_m_10m` | float | m | Min DEM elevation within 150 m of the gage, 10 m DEM. Null for 1 gage |
 | `burn_value_m_10m` | float | m | `dem_elev_m_10m − riverbed_elev_m`. Always > 0. Null for 1 gage |
 | `dem_elev_m_30m` | float | m | Min DEM elevation within 150 m of the gage, 30 m DEM |
 | `burn_value_m_30m` | float | m | `dem_elev_m_30m − riverbed_elev_m`. Always > 0 |
 | `vertical_datum_type` | string | — | Reported datum. **`Unknown` for all rows** — see limitation 4 |
 
+`dem_elev_m_*` is the **minimum** DEM elevation inside a 150 m-radius circle around the
+gage, which finds the channel thalweg rather than the bank the gage house sits on.
+
 Only `dem_elev_m` and `burn_value_m` differ between the 10 m and 30 m runs (69 of 73
 gages), so all other columns are resolution-independent and stored once.
+
+Full derivation: **[METHODS.md](METHODS.md)**.
 
 ---
 

@@ -197,7 +197,8 @@ COEF_F = ["site_id", "monitoring_location_id", "huc4", "station_name", "lat", "l
           "coeff_a_width", "exp_b_width", "coeff_c_depth", "exp_f_depth",
           "coeff_k_velocity", "exp_m_velocity", "exponent_sum",
           "max_flow_cfs", "n_channel_features", "n_fit_points",
-          "r2_width", "r2_depth", "r2_velocity", "exponent_sum_in_range",
+          "r2_width", "r2_depth", "r2_velocity",
+          "n_relations_fitted", "exponent_sum_in_range",
           "width_unit", "depth_unit", "velocity_unit", "flow_unit"]
 byid = {r["site_id"]: r for r in gage_rows}
 coef_rows = []
@@ -218,6 +219,12 @@ for s in sorted(coeffs):
     es = num(r.get("exponent_sum"))
     coef_rows[-1]["exponent_sum_in_range"] = int(
         isinstance(es, (int, float)) and 0.85 <= es <= 1.15)
+    # A failed fit leaves a null coefficient but an exponent of exactly 0.0, so it
+    # still contributes to exponent_sum. Count the relations that actually converged
+    # so that can be screened on directly.
+    coef_rows[-1]["n_relations_fitted"] = sum(
+        1 for ck in ("coeff_a_width", "coeff_c_depth", "coeff_k_velocity")
+        if isinstance(num(r.get(ck)), (int, float)))
     coef_rows[-1].update(fit_quality(s, r))
 write_csv(os.path.join(OUT, "hydraulic_geometry_coefficients.csv"), COEF_F, coef_rows)
 write_geojson(os.path.join(OUT, "hydraulic_geometry_coefficients.geojson"), coef_rows)
